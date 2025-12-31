@@ -69,6 +69,9 @@ type Dictionary = {
     descriptionFallback: string;
     breadcrumb: string;
     curatedBy: string;
+    byLabel: string;
+    publishedLabel: string;
+    copiesLabel: string;
     parametersLabel: string;
     parametersTitle: string;
     parametersEmpty: string;
@@ -159,6 +162,9 @@ const dictionaries: Record<Locale, Dictionary> = {
         "Precision-crafted prompt ready for remixing and iteration.",
       breadcrumb: "Prompt",
       curatedBy: "PPWZ Curated",
+      byLabel: "By:",
+      publishedLabel: "Published",
+      copiesLabel: "Copies",
       parametersLabel: "Parameters",
       parametersTitle: "Structured settings.",
       parametersEmpty:
@@ -244,6 +250,9 @@ const dictionaries: Record<Locale, Dictionary> = {
       descriptionFallback: "适合复用与迭代的精炼提示词。",
       breadcrumb: "提示词",
       curatedBy: "PPWZ 精选",
+      byLabel: "作者:",
+      publishedLabel: "发布时间",
+      copiesLabel: "复制次数",
       parametersLabel: "参数",
       parametersTitle: "结构化设置。",
       parametersEmpty: "暂无解析参数，接入解析器后会展示结构化控制项。",

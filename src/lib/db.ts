@@ -34,6 +34,7 @@ export interface Prompt {
     model_type: string;
     parameters?: Record<string, unknown>;
     preview_images: string[];
+    tags?: string[];
     status: "draft" | "published" | "archived";
     published_at?: string;
     copy_count: number;
@@ -78,6 +79,7 @@ function transformPrompts(): Prompt[] {
             model_type: (item.model as string) || "unknown",
             parameters: {},
             preview_images: (item.preview_images as string[]) || [],
+            tags: Array.isArray(item.tags) ? (item.tags as string[]) : [],
             status: "published" as const,
             published_at: new Date().toISOString(),
             copy_count: Math.floor(Math.random() * 500),
