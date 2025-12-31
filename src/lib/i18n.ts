@@ -29,7 +29,11 @@ type Dictionary = {
     copiesSuffix: string;
   };
   home: {
-    headline: string;
+    hero: {
+      brand: string;
+      line1: string;
+      line2: string;
+    };
     subhead: string;
     stats: {
       curated: string;
@@ -98,8 +102,11 @@ const dictionaries: Record<Locale, Dictionary> = {
       copiesSuffix: "copies",
     },
     home: {
-      headline:
-        "Search the prompt vault built for cinematic, brand-ready storytelling.",
+      hero: {
+        brand: "Prompt Wizard:",
+        line1: "Right Prompts",
+        line2: "Make it happen",
+      },
       subhead:
         "A curated engine of AIGC prompts, tuned for creators who need precision, speed, and shareable results across every model.",
       stats: {
@@ -190,7 +197,11 @@ const dictionaries: Record<Locale, Dictionary> = {
       copiesSuffix: "次复制",
     },
     home: {
-      headline: "搜索为电影感、品牌级叙事打造的提示词库。",
+      hero: {
+        brand: "魔词：",
+        line1: "提示词对了，",
+        line2: "就是灵",
+      },
       subhead:
         "精选 AIGC 提示词引擎，面向需要精准、快速、易分享结果的创作者与团队。",
       stats: {

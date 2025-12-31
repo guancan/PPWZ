@@ -104,7 +104,7 @@ export function HeroParticles() {
     }, []);
 
     return (
-        <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute inset-0 overflow-hidden z-0">
             <canvas
                 ref={canvasRef}
                 className="absolute inset-0 w-full h-full"

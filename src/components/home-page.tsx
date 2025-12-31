@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { HeroParticles } from "@/components/hero-particles";
+import { HeroVideo } from "@/components/hero-video";
 import { PromptCard } from "@/components/prompt-card";
 import { SearchBar } from "@/components/search-bar";
 import { getCategories, getLatestPrompts } from "@/lib/db";
@@ -51,8 +52,12 @@ export function HomePage({ locale }: HomePageProps) {
           </div>
           <div className="mt-10 flex flex-col gap-12">
             <div className="max-w-2xl">
-              <h1 className="text-4xl font-semibold leading-tight text-foreground sm:text-5xl lg:text-6xl">
-                {dict.home.headline}
+              <h1 className="text-4xl leading-tight text-foreground sm:text-5xl lg:text-6xl">
+                <span className="block font-semibold">
+                  {dict.home.hero.brand}
+                </span>
+                <span className="block font-medium">{dict.home.hero.line1}</span>
+                <span className="block font-medium">{dict.home.hero.line2}</span>
               </h1>
               <p className="mt-4 text-lg text-muted-foreground">
                 {dict.home.subhead}
@@ -97,6 +102,7 @@ export function HomePage({ locale }: HomePageProps) {
             </div>
           </div>
         </div>
+        <HeroVideo src="/hero.mp4" />
       </section>
 
       <section className="mx-auto max-w-6xl px-6 py-16">
