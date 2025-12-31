@@ -1,0 +1,2206 @@
+[
+  {
+    "model": "nano banana",
+    "category": {
+      "description": "擅长机位切换、POV视角、姿态重定向、拟单反质感等\"摄影指令\"",
+      "name": "摄像"
+    },
+    "preview_images": [
+      "https://piximg.jiehuo.ai/prompt-library/temp/primary-1766332398381-0dulddjjhp6k.jpeg"
+    ],
+    "result_image": "https://piximg.jiehuo.ai/prompt-library/temp/primary-1766332398381-0dulddjjhp6k.jpeg",
+    "prompt": "(Dynamic action photography, explosion composition, festive art style). An explosive surprise composition where a young woman bursts out from a giant Christmas gift box in a moment of pure joy.\n\nThe Action: The character is wearing a white faux fur winter coat and a red Santa hat, leaping upward with arms raised in celebration, frozen in mid-air jump. A huge red and gold wrapped gift box below her is exploding open with the lid flying off.\n\nDynamic Elements: Colorful ribbons and wrapping paper pieces explode outward in all directions. Snow and magical glitter burst upward like confetti. Small snow-covered pine trees with colorful Christmas lights shoot out from the box. Gift tags, ornaments, and tinsel swirl in the air. Snowflakes scatter in the explosive motion.\n\nBackground: Soft-focused cozy living room with Christmas decorations, fireplace, creating warm festive atmosphere.\n\nLighting: Magical glow emanating from inside the gift box, illuminating the character from below with warm golden light. Colorful Christmas lights create bokeh trails. Dynamic motion blur on flying objects.\n\nTechnical: High-speed photography freeze frame, particle explosion effects, dynamic composition, vibrant festive colors, 8k resolution, joyful and energetic aesthetic.",
+    "quality_score": 1,
+    "status": "approved",
+    "title": "Christmas Special – Gift Box Surprise: Characters Jumping Out",
+    "tags": [],
+    "slug": null,
+    "source_type": "user_submit",
+    "source_url": ""
+  },
+  {
+    "model": "nano banana",
+    "category": {
+      "description": "一键生成符合平台风格的网格图和吸引眼球的封面图",
+      "name": "社媒"
+    },
+    "preview_images": [
+      "https://piximg.jiehuo.ai/prompt-library/temp/primary-1766331678651-4txbqsivvdl.jpeg"
+    ],
+    "result_image": "https://piximg.jiehuo.ai/prompt-library/temp/primary-1766331678651-4txbqsivvdl.jpeg",
+    "prompt": "(2-panel vertical split, twin concept, studio photography). Two panels side-by-side showing the specific character interacting with the frame edge (as if looking at herself). [CRITICAL: Keep the face identical to the source image in both panels].\n\nLeft Panel: Wearing a green sweater and Santa hat, holding a Christmas cracker ready to pull, leaning right.\nRight Panel: Wearing a red sweater, holding the other end of the Christmas cracker, leaning left. Surrounded by Christmas lights.\nProps: Wrapped gifts and a snowman doll at their feet.\nBackground: Yellow or teal bright studio background.\nLighting: Flat, bright, shadowless lighting.\nStyle: Fun, creative, \"cloning\" effect, playful narrative.\naspect_ratio: 16:9",
+    "quality_score": 1,
+    "status": "approved",
+    "title": "Christmas Special – My Christmas, in Sync with Myself",
+    "tags": [],
+    "slug": null,
+    "source_type": "user_submit",
+    "source_url": ""
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/temp/primary-1767021846512-0805kyv9mqle.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/temp/primary-1767021846512-0805kyv9mqle.jpeg",
+    "prompt": "{\n  \"template_name\": \"新年城市天际线庆典 (人物定制版)\",\n  \"description\": \"一个孩子俯瞰城市天际线的电影式镜头。支持基于参考图的人物形象定制、视角切换（正面/背面）以及自定义动作。画面中包含定制的烟花特效和巨大的“2026”字样。新增全局构图设定：采用鸟瞰远景视角，镜头与人物呈60度角，确保人物不遮挡城市夜景；人物服装风格与目标城市文化或地标元素相呼应。\",\n  \"prompt_template\": \"一个令人惊艳的电影式镜头，采用鸟瞰远景构图，镜头与人物呈60度角，巧妙避开人物对背景的遮挡，完整展现壮丽的城市天际线。基于参考图片中的孩子形象，人物以{view_orientation}出现在画面中，头戴一顶奇趣的派对帽，身穿与{target_city_short}文化或地标相呼应的节日服装，站在高耸的山峰之巅。人物当前的动作为：{character_action}。背景是令人叹为观止的{target_city}城市夜景，标志性的城市地标在繁星点点的夜空下清晰可见。整个天空被{city_fireworks_effect}点亮。巨大的、闪耀的金色烟花在中心清晰地拼出了“2026”的字样。8K 分辨率，照片级真实感，电影颗粒感，营造出梦幻、宏大且充满希望的氛围，展现了高度精细的城市夜景。\",\n  \"input_variables\": {\n    \"target_city\": {\n      \"type\": \"string\",\n      \"description\": \"庆祝活动的城市名称和主要地标描述。\",\n      \"default_value\": \"上海夜景，东方明珠塔、外滩和蜿蜒的黄浦江\"\n    },\n    \"target_city_short\": {\n      \"type\": \"string\",\n      \"description\": \"目标城市的简称或关键词，用于描述服装风格匹配（如'上海'、'巴黎'、'东京'等）。\",\n      \"default_value\": \"上海\"\n    },\n    \"city_fireworks_effect\": {\n      \"type\": \"string\",\n      \"description\": \"烟花的风格、形状、颜色和氛围的描述。\",\n      \"default_value\": \"一场壮观的迪士尼风格烟花表演，以米老鼠形状的烟花、童话般的柔和色彩、闪闪发光的魔法粉尘和梦幻般的层叠火花为特色\"\n    },\n    \"view_orientation\": {\n      \"type\": \"string\",\n      \"description\": \"人物相对于镜头的朝向。推荐：'背面剪影' 或 '正面（面带惊奇的笑容）'。\",\n      \"default_value\": \"背面剪影\"\n    },\n    \"character_action\": {\n      \"type\": \"string\",\n      \"description\": \"人物的具体肢体动作。\",\n      \"default_value\": \"双手高举过头顶，向着天空张开，身体微微后仰，充满惊奇和兴奋\"\n    }\n  },\n  \"full_prompt_example\": \"一个令人惊艳的电影式镜头，采用鸟瞰远景构图，镜头与人物呈60度角，巧妙避开人物对背景的遮挡，完整展现壮丽的城市天际线。基于参考图片中的孩子形象，人物以背面剪影出现在画面中，头戴一顶奇趣的派对帽，身穿与上海文化或地标相呼应的节日服装，站在高耸的山峰之巅。人物当前的动作为：双手高举过头顶，向着天空张开，身体微微后仰，充满惊奇和兴奋。背景是令人叹为观止的上海夜景，东方明珠塔、外滩和蜿蜒的黄浦江在繁星点点的夜空下清晰可见。整个天空被一场壮观的迪士尼风格烟花表演点亮，以米老鼠形状的烟花、童话般的柔和色彩、闪闪发光的魔法粉尘和梦幻般的层叠火花为特色。巨大的、闪耀的金色烟花在中心清晰地拼出了“2026”的字样。8K 分辨率，照片级真实感，电影颗粒感，营造出梦幻、宏大且充满希望的氛围，展现了高度精细的城市夜景。\"\n}\n城市：香港维多利亚港\n人物：参考图片｜正面照。服装需替换与背景城市保持一致\n动作: 双手过肩比心",
+    "quality_score": null,
+    "status": "approved",
+    "title": "新年城市天际线庆典 (人物定制版)",
+    "tags": [],
+    "slug": null,
+    "source_type": "user_submit",
+    "source_url": null
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-5/primary-0-1766861418207-9d1xav6k.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-5/preview-0-1766861419420-su8t1d8f.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-5/primary-0-1766861418207-9d1xav6k.png",
+    "prompt": "Act as a creative director at Rockstar Games. Create a fictional GTA VI character sheet in the exact same style as the official GTA VI promotional images.\n\nThe layout must be:\n\nA horizontal character sheet, with the character on the right, in a dynamic pose that reflects their personality.\nOn the left, include the following structured text:\nA small \"VI\" logo at the top left (mention it visually).\nThe character’s name in big bold text.\nA catchy slogan or tagline right below in a different bright color.\nA short backstory (3–5 lines) written in an ironic, street-smart, or playful tone — just like Rockstar’s tone of voice.\n\nUse the vibrant Vice City aesthetic with sunset lighting, neon accents, and cel-shaded comic style. The character’s clothing, action, and environment must reflect their archetype and background.\n\nLet me customize the following variables:\n\nArchetype: {your choice}\n\nGender: {your choice}\n\nSkin tone: {your choice}\n\nHairstyle: {your choice}\n\nEmotion : {your choice}\n\nOutfit: {your choice}\n\nWeapon or action: {your choice}\n\nBackground details: {your choice}\n\nGenerate a fictive name in tittle and a description in english\n\nFormat the final result like a finished in-game asset reveal. The vibe should be over-the-top, stylish, and full of personality — as if part of the real GTA VI world.\n\n(if the \"Your choice\" sections are not filled with personalized information, it's up to you to generate it randomly by yourself) generate the visual directly from now on",
+    "quality_score": null,
+    "status": "approved",
+    "title": "创建你自己的GTA角色",
+    "tags": [
+      "character",
+      "gaming",
+      "landscape",
+      "neon"
+    ],
+    "slug": "prompt-5",
+    "source_type": "crawled",
+    "source_url": "https://x.com/Anima_Labs/status/1924135446629728712",
+    "twitterText": "The GTA Character prompt (big custom with your choices or random if you do not fill in your personalized information)  : \n\n\"Act as a creative director at Rockstar Games. Create a fictional GTA VI character sheet in the exact same style as the official GTA VI promotional images. https://t.co/TE35IcG4P0"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-6/primary-0-1766861414667-v8q1l5nt.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-6/preview-0-1766861415913-j2hm0jl7.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-6/primary-0-1766861414667-v8q1l5nt.png",
+    "prompt": "{\n    \"base_image\": \"uploaded image\",\n    \"style_transfer\": {\n        \"visual_characteristics\": {\n            \"head_and_face\": {\n                \"material\": \"translucent resin with embedded starlight and glowing neural circuits\",\n                \"surface_effect\": \"mirror-gloss with gold filament veins and galaxy-like reflections\",\n                \"lighting\": \"dynamic cinematic rim lights with volumetric glow\"\n            },\n            \"body_structure\": {\n                \"texture\": \"high-polish white ceramic with embedded gold wiring\",\n                \"design\": \"futuristic like organic plating\",\n                \"highlight_elements\": \"subtle internal light flows mimicking synaptic energy\"\n            },\n            \"motion_effect\": {\n                \"visual_glitch\": \"subtle horizontal motion blur on head edges\",\n                \"energy_flow\": \"faint pulsing particle lights across body\"\n            },\n            \"background\": {\n                \"type\": \"neutral gradient or dark void\",\n                \"focus\": \"emphasize figure's luminous contrast\"\n            }\n        },\n        \"application_target\": \"Replace surface and material style of uploaded image with the characteristics described above, while preserving the original pose, structure, and composition of the target image.\"\n    }\n}",
+    "quality_score": null,
+    "status": "approved",
+    "title": "金色抽象综合风格",
+    "tags": [
+      "character",
+      "futuristic"
+    ],
+    "slug": "prompt-6",
+    "source_type": "crawled",
+    "source_url": "https://x.com/firatbilal/status/1924130071758962938",
+    "twitterText": "\"base_image\": uploaded image   \n\"style_transfer\": {     \n\"visual_characteristics\": {       \n\"head_and_face\": {         \n\"material\": \"translucent resin with embedded starlight and glowing neural circuits\",         \n\"surface_effect\": \"mirror-gloss with gold filament veins and"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [],
+    "result_image": null,
+    "prompt": "An embroidered portrait of Elon Musk, stitched with rich steel grey and electric blue thread on deep linen fabric. Visible needlework, layered textures, and handmade patterns give it an earthy, sacred feel.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "刺绣肖像 (变体 2)",
+    "tags": [
+      "portrait"
+    ],
+    "slug": "prompt-7-v2",
+    "source_type": "crawled",
+    "source_url": "https://x.com/azed_ai/status/1924042329700372929",
+    "twitterText": "Prompt share: Embroidered portrait\n\n💬Prompt:\nA [subject], captured against a pure dark background with smooth gradients and soft ambient shadows. The [colors] add a bold yet refined accent to the composition. Clean high-resolution details, studio lighting, and minimalist https://t.co/dTgwrmRUU8"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-7/primary-0-1766861403563-zu5n68ky.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-7/preview-0-1766861408438-lyzz3iiq.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-7/primary-0-1766861403563-zu5n68ky.png",
+    "prompt": "An embroidered portrait of [subject], [colors] thread on deep linen fabric. Visible needlework, layered textures, and handmade patterns give it an earthy, sacred feel.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "刺绣肖像",
+    "tags": [
+      "portrait"
+    ],
+    "slug": "prompt-7",
+    "source_type": "crawled",
+    "source_url": "https://x.com/azed_ai/status/1924042329700372929",
+    "twitterText": "Prompt share: Embroidered portrait\n\n💬Prompt:\nA [subject], captured against a pure dark background with smooth gradients and soft ambient shadows. The [colors] add a bold yet refined accent to the composition. Clean high-resolution details, studio lighting, and minimalist https://t.co/dTgwrmRUU8"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-8/primary-0-1766861394165-c2g9qr0n.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-8/preview-0-1766861398891-83law305.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-8/primary-0-1766861394165-c2g9qr0n.png",
+    "prompt": "A handcrafted illustration that simulates traditional embroidery using colorful threads on linen fabric. All elements are “stitched” with visible yarn textures, using techniques like satin stitch, backstitch, and French knots. Raised contours and directional thread flow create a tactile, cozy appearance. The background is made of woven linen, with gentle pastel or folk-inspired colors. The composition is friendly and magical, evoking a storybook charm. Include decorative details such as flowers, suns, clouds, trees or symbols to enhance the folk embroidery style.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "刺绣插图风格",
+    "tags": [
+      "illustration"
+    ],
+    "slug": "prompt-8",
+    "source_type": "crawled",
+    "source_url": "https://x.com/Artedeingenio/status/1924032621220188340",
+    "twitterText": "New amazing style for ChatGPT-4o:\n\nEmbroidery Illustration Style\n\nA visual aesthetic that digitally simulates handcrafted embroidery — colorful threads on fabric, with a soft, tactile feel, as if every detail were sewn by hand.\n\n👉 You can transform any image using this style https://t.co/i45eqw4UH4"
+  },
+  {
+    "model": "ChatGPT",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-9/primary-0-1766861381229-4bm14eq7.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-9/preview-0-1766861385916-8m9jncgh.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-9/primary-0-1766861381229-4bm14eq7.png",
+    "prompt": "Using the uploaded image as the exact visual base, transform it into a hyper-realistic 3D object that retains the original shape and proportions of the logo only. Apply traditional Ottoman Iznik ceramic textures—featuring a warm white glazed base with delicate crackle lines, overlaid with vivid cobalt blue, turquoise, and bold red floral motifs such as tulips, carnations, and arabesque vines. The entire logo should be treated as a standalone porcelain sculpture with raised, hand-painted detailing and no background plate or tile structure. Ensure the decorative patterns elegantly follow the contours of the Bugatti logo, without altering its form. Render the object in a pure black background with Cinema 4D-style product lighting—highlighting realistic ceramic gloss, material depth, and subtle reflections. The final result should feel like a luxurious handcrafted ceramic reinterpretation, balancing heritage ornamentation with industrial branding.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "青花瓷风格",
+    "tags": [
+      "branding",
+      "nature",
+      "product",
+      "sculpture",
+      "vehicle"
+    ],
+    "slug": "prompt-9",
+    "source_type": "crawled",
+    "source_url": "https://x.com/firatbilal/status/1923627963251052769",
+    "twitterText": "Would you like to turn your logo into porcelain? ✨ v2\n\nWith ChatGPT 4o, transform any logo into a porcelain object styled with blue-and-white ceramic patterns inspired by the Ottoman Iznik ceramic texture.\n\nPrompt 👇 https://t.co/OHzbnNVotM"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-10/primary-0-1766861370530-thsymkur.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-10/preview-0-1766861375482-ijg3min6.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-10/primary-0-1766861370530-thsymkur.png",
+    "prompt": "Create a psychedelic, grotesque cartoon-style text design that says “GNARLY”. Arrange the letters in a straight horizontal line. Each letter should be lumpy, melting, and oozing with bright, clashing flat colors like slime green, neon yellow, and hot pink. Each letter must be filled with only one solid flat color, with no gradients or transitions. All drips, melts, and oozes must be solid black with no shading or gradient. Make the design vector-friendly with clean, solid fills and bold black outlines. Add extra black and white eyeballs to make each letter feel like a weird mutated creature. Keep the composition chaotic but readable, like a mutant version of a Saturday morning cartoon. Black background. Square aspect ratio.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "熔化变异文本",
+    "tags": [
+      "animal",
+      "cartoon",
+      "neon",
+      "vehicle"
+    ],
+    "slug": "prompt-10",
+    "source_type": "crawled",
+    "source_url": "https://x.com/gnrlyxyz/status/1924102927154626885",
+    "twitterText": "Melting mutant text with GPT-4o.\n\nPROMPT:\nCreate a psychedelic, grotesque cartoon-style text design that says “GNARLY”. Arrange the letters in a straight horizontal line. Each letter should be lumpy, melting, and oozing with bright, clashing flat colors like slime green, neon https://t.co/6hcNqV9cEO"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-11/primary-0-1766861357836-pc9lk3i2.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-11/preview-0-1766861359736-obinvyb8.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-11/primary-0-1766861357836-pc9lk3i2.jpeg",
+    "prompt": "A romantic square-format bouquet inspired by [Brand Name]. Roses are crafted from visual patterns or textures that reflect the brand’s identity. The bouquet is wrapped in luxurious material echoing the brand’s signature style (e.g. silk, velvet, leather), and elegantly tied with one of the brand’s iconic products, replacing a traditional ribbon. Place it on a surface that matches the brand’s aesthetic. Add a message card beside the bouquet with a short, emotional 3-word slogan representing the brand’s spirit. Include the [Brand Name] logo subtly in the scene. Cinematic lighting, ultra-detailed, elegant depth of field, premium editorial quality.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "品牌之爱话术",
+    "tags": [
+      "branding",
+      "nature",
+      "product",
+      "vehicle"
+    ],
+    "slug": "prompt-11",
+    "source_type": "crawled",
+    "source_url": "https://x.com/aziz4ai/status/1924046710218645932",
+    "twitterText": "GPT-4o PROMPT: Branded Love Bouquets\n\nOne of my quiet joys: arranging flowers.\nBut when I do… I build them with love.\nEach petal, a story.\nEach bouquet, a brand.\nEach emotion, fully dressed.\n\nWhich one you will choose, or you will make? \n\nThe prompt in the next comment ⬇️ https://t.co/0h1NFE6yzD"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-12/primary-0-1766861353443-eggmcah6.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-12/preview-0-1766861354981-k1rt5z8e.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-12/primary-0-1766861353443-eggmcah6.png",
+    "prompt": "A minimalist and creative advertisement set on a clean white background.\nA real [Real Object] is integrated into a hand-drawn black ink doodle, using loose, playful lines. The [Doodle Concept] interacts with the object in a clever, imaginative way. Include bold black [Ad Copy] text at the top or center. Place the [Brand Logo] clearly at the bottom. The visual should be clean, fun, high-contrast, and conceptually smart.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "创意广告",
+    "tags": [
+      "branding",
+      "logo",
+      "minimalist"
+    ],
+    "slug": "prompt-12",
+    "source_type": "crawled",
+    "source_url": "https://x.com/azed_ai/status/1923016036120658122",
+    "twitterText": "Use GPT-4o to create creative ads like these in No time 🤩\n\nPrompt 👇🏻 https://t.co/3m2WbvnPWY"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-13/primary-0-1766861347152-zvginpa4.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-13/preview-0-1766861350297-b4bc5wd2.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-13/primary-0-1766861347152-zvginpa4.png",
+    "prompt": "Use the uploaded product image exactly as it is — do not alter, redraw, or reinterpret any part of it. Follow the guidelines below to create a high-quality, cinematic product presentation:\n\n• Keep the product fully intact — all text, labels, proportions, packaging, and colors must remain exactly the same.\n• Use natural or cinematic lighting to enhance the product’s appeal.\n• Place the product on a realistic surface that matches its category (e.g. wooden kitchen table for bread, bathroom shelf for skincare, desk for tech gadgets).\n• Add complementary props if appropriate (e.g. toast and coffee for bread, leaves and water droplets for skincare) — but do not let them touch or cover the product.\n• Use a softly blurred or ambient background (e.g. kitchen, morning window light, minimal interior).\n• Include soft shadows and subtle reflections for a grounded, photo-realistic effect.\n• Final result should feel premium, natural, and visually appealing — with 100% fidelity to the uploaded product image.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "创意广告",
+    "tags": [
+      "food",
+      "interior",
+      "minimalist",
+      "photography",
+      "product",
+      "vehicle"
+    ],
+    "slug": "prompt-13",
+    "source_type": "crawled",
+    "source_url": "https://x.com/aziz4ai/status/1923980304525537424",
+    "twitterText": "Use the uploaded product image exactly as it is — do not alter, redraw, or reinterpret any part of it. Follow the guidelines below to create a high-quality, cinematic product presentation:\n\n• Keep the product fully intact — all text, labels, proportions, packaging, and colors"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-14/primary-0-1766861329634-8ey2gbr8.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-14/preview-0-1766861337306-qxiglcsh.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-14/primary-0-1766861329634-8ey2gbr8.png",
+    "prompt": "A high-impact advertisement set against a clean, dark or high-contrast background. A [product] is centered, sharply lit and highly detailed. Around it, surreal, stylized visual [elements] illustrations explode outward (e.g., musicians, runners, curls, sunbursts), vibrant color palette, neon. bold uppercase ad copy at the top that reads [TEXT] and the brand logo at the bottom, modern Ad",
+    "quality_score": null,
+    "status": "approved",
+    "title": "创意广告",
+    "tags": [
+      "branding",
+      "illustration",
+      "neon",
+      "product"
+    ],
+    "slug": "prompt-14",
+    "source_type": "crawled",
+    "source_url": "https://x.com/azed_ai/status/1924090458298609881",
+    "twitterText": "A high-impact advertisement set against a clean, dark or high-contrast background. A [product] is centered, sharply lit and highly detailed. Around it, surreal, stylized visual [elements] illustrations explode outward (e.g., musicians, runners, curls, sunbursts), vibrant color"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-15/primary-0-1766861320835-qwfp1xq4.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-15/preview-0-1766861323378-mll0r9jb.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-15/primary-0-1766861320835-qwfp1xq4.png",
+    "prompt": "A quiet morning in a luxury treehouse retreat created by [BRAND NAME] — golden light pours through windows framed in the brand’s signature colors. A cozy seating area features playful, thematic furniture, and a circular rug inspired by [BRAND SYMBOL OR PRODUCT]. The coffee table bears the embossed logo, while a screen on the wall loops the phrase: “[BRAND SLOGAN].” A curated display of iconic items adds a sense of nostalgia. Subtle ambient lighting glows in brand tones, and a tray with signature treats sits near the window. It’s cozy, imaginative, and unmistakably [BRAND NAME]",
+    "quality_score": null,
+    "status": "approved",
+    "title": "树屋",
+    "tags": [
+      "branding",
+      "nature",
+      "product"
+    ],
+    "slug": "prompt-15",
+    "source_type": "crawled",
+    "source_url": "https://x.com/TheRelianceAI/status/1923451797869371701",
+    "twitterText": "Treehouse by GPT-4o🏡\n\nPrompt for inspiration in ALT👇 https://t.co/EM42h8gj7q"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-16/primary-0-1766861314027-edyar7ku.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-16/preview-0-1766861316860-j57ac6vr.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-16/primary-0-1766861314027-edyar7ku.png",
+    "prompt": "Planet [Brand name], Year 3025. A distant world shaped entirely by the essence of the brand. The landscapes echo its core identity — from surreal terrains to fantastical weather patterns. Native flora and fauna embody its signature ingredients and aesthetics. Rivers flow with iconic flavors. Architecture is inspired by its packaging and visual language, fused with futuristic technology. The atmosphere is rich in texture, cinematic lighting, and surreal detail. A dreamlike vision of brand identity reimagined as a sci-fi utopia.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "品牌星球世界",
+    "tags": [
+      "architecture",
+      "branding",
+      "futuristic",
+      "landscape",
+      "nature",
+      "product",
+      "sci-fi"
+    ],
+    "slug": "prompt-16",
+    "source_type": "crawled",
+    "source_url": "https://x.com/TheRelianceAI/status/1923064017477628160",
+    "twitterText": "Brands That Became Worlds by GPT-4o\n\nPrompt you’ll find in ALT👇 https://t.co/dnvre9Z4aC"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-17/primary-0-1766861307754-7ykif6bo.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-17/preview-0-1766861310079-doqunzjd.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-17/primary-0-1766861307754-7ykif6bo.png",
+    "prompt": "A cinematic rendering of [subject] walking through a rain-soaked street at night, illuminated by moody neon lights, reflections dancing on wet pavement, and a hazy urban skyline in the background. The subject feels alive, caught between solitude and electricity.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "未来一瞥",
+    "tags": [
+      "futuristic",
+      "neon"
+    ],
+    "slug": "prompt-17",
+    "source_type": "crawled",
+    "source_url": "https://x.com/TheRelianceAI/status/1921900687689941197",
+    "twitterText": "A glimpse into the future with the GPT-4o\n\nPrompt👇 https://t.co/wtdNx7rv4E"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-18/primary-0-1766861297458-01tzjed4.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-18/preview-0-1766861301529-sgqystbr.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-18/preview-1-1766861304128-dcmvh34s.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-18/primary-0-1766861297458-01tzjed4.png",
+    "prompt": "\"A Minecraft-style voxel recreation of a [BRAND NAME,OBJECT], built entirely from pixelated cubes — detailed voxel modeling, signature brand colors and logo, blocky textures, clean lighting, stylized yet recognizable, 3D render, high resolution, playful and creative interpretation",
+    "quality_score": null,
+    "status": "approved",
+    "title": "品牌我的世界风格",
+    "tags": [
+      "branding",
+      "gaming",
+      "nature",
+      "pixel"
+    ],
+    "slug": "prompt-18",
+    "source_type": "crawled",
+    "source_url": "https://x.com/TheRelianceAI/status/1923757741262164427",
+    "twitterText": "New day - new prompt!🥳\n\nToday the main theme are brands in the\nMinecraft style🧱\n\nExcited to see your ideas — you can find a prompt for inspiration in ALT👇 https://t.co/bYRQqqSuUE"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-19/primary-0-1766861282559-zfys7c75.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-19/preview-0-1766861289787-ot6jeovc.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-19/primary-0-1766861282559-zfys7c75.png",
+    "prompt": "A high-quality photo of a cute ceramic [object/animal]-shaped planter with a glossy finish, filled with a variety of vibrant succulents and greenery including a spiky Haworthia, a rosette-shaped Echeveria, and delicate white flowers. The planter has a friendly face and sits on a soft, neutral background with diffused natural lighting, showcasing fine textures and color contrast in a clean, minimalistic composition",
+    "quality_score": null,
+    "status": "approved",
+    "title": "Emoji变成一个花盆",
+    "tags": [
+      "animal",
+      "emoji",
+      "minimalist",
+      "nature",
+      "photography"
+    ],
+    "slug": "prompt-19",
+    "source_type": "crawled",
+    "source_url": "https://x.com/azed_ai/status/1923739813414568075",
+    "twitterText": "A high-quality photo of a cute ceramic [object/animal]-shaped planter with a glossy finish, filled with a variety of vibrant succulents and greenery including a spiky Haworthia, a rosette-shaped Echeveria, and delicate white flowers. The planter has a friendly face and sits on a"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-20/primary-0-1766861275791-ufqofypq.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-20/preview-0-1766861277623-btmaechw.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-20/primary-0-1766861275791-ufqofypq.jpeg",
+    "prompt": "A high-resolution photograph of a clear plastic drawstring bag placed on a light gray background. Inside the bag are multiple tiny 3D [subject] figures arranged neatly. The bag is tied with a soft white ribbon and has a black label tag that reads ‘[LABEL TEXT]’. Soft lighting and clean shadows emphasize the realistic textures and details",
+    "quality_score": null,
+    "status": "approved",
+    "title": "透明塑料袋装物体",
+    "tags": [
+      "photography"
+    ],
+    "slug": "prompt-20",
+    "source_type": "crawled",
+    "source_url": "https://x.com/azed_ai/status/1923376928918327386",
+    "twitterText": "Got a product you want to showcase beautifully?\n\nUpload your image to GPT-4o and use this prompt👇 https://t.co/zYJMr7nBih"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-21/primary-0-1766861269150-se1y36tq.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-21/preview-0-1766861272701-rzumyvjp.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-21/primary-0-1766861269150-se1y36tq.jpeg",
+    "prompt": "[Product by Brand] in a surreal, minimalist paper-glass style advertisement.\nThe product is centered, crafted from translucent frosted glass-paper, placed against a clean white or softly tinted background.\nSoft cinematic lighting creates gentle contrast and ambient shadows.\nA single brand color subtly interacts with the scene through glow, mist, liquid, or foam.\nInclude a bold, elegant 4-word slogan near the product.\nThe brand logo appears subtly etched, glowing, or printed in a refined manner.\nVertical or square aspect ratio, ultra-detailed, poster-quality, visually soothing and conceptually refined.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "产品变成纸玻璃",
+    "tags": [
+      "branding",
+      "minimalist",
+      "paper-craft",
+      "poster",
+      "product"
+    ],
+    "slug": "prompt-21",
+    "source_type": "crawled",
+    "source_url": "https://x.com/aziz4ai/status/1923449494898618849",
+    "twitterText": "GPT-4o PROMPT: Minimalism meets magic.\n\nThis concept turns your product into a surreal paper-glass sculpture—clean, bold, and irresistibly elegant.\nPerfect for brands that want to speak without saying much.\n\nThe prompt in the next comment ⬇️ https://t.co/t7kOWeCWje"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-22/primary-0-1766861263050-j8hfxpcc.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-22/preview-0-1766861264738-v18obuuh.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-22/primary-0-1766861263050-j8hfxpcc.jpeg",
+    "prompt": "一件高度写实的 3D 装置艺术：字母 Z 被设计成充气球囊造型，整体形态如同流畅弯曲的“Z”字路径，由两段斜线和一个折角构成，边缘略微卷翘，充满柔软的气压感。\n\n视角为正面稍仰视角（约10°）的正交投影，主体置于画面正中央，占据几乎全部画幅，背景为纯黑色，形成类似剧院聚光灯的聚焦舞台效果。\n\n材质为高弹性亮面 PVC，表面涂有高光清漆。主色为柔亮粉色（#FF96AC），阴影部分渐变为淡紫粉色，表面同时具备镜面高光和柔和漫反射，呈现丝滑、饱满、有张力的视觉质感。\n\n左下角可见一个金属螺旋气嘴（银灰色），尺寸很小但极具真实感，暗示其为充气物体。右下笔画末端印有一串黑色的警示文字和安全图标，以“ZHOGUE”风格排版，呼应充气玩具视觉语言。\n\n主光源来自左上方约 35°，呈现清晰的硬边聚光灯效果：在顶部折角与中央斜线区域形成椭圆形白色高光，内折阴影区带有柔和的粉紫色内反射。\n\n辅光来自右后方，轻柔描边顶部和转折边缘，使形体与黑背景分离，整体光比约为 1:2，保持色彩通透与立体感。亮区色温偏冷，营造冷暖对比，进一步突显质感。\n\n球囊表面略显鼓胀，折角与转折区域有尖锐的折痕，带来软体与几何的视觉张力。最深的转折处投下细长阴影，仿佛即将破裂；下方末端则有轻微拉扯感，如气球尾部即将被牵动。\n\n整体概念融合了字母结构与充气玩具的材质语言，通过夸张体积、真实光感与极简舞台感构建出“字母也能呼吸”的视觉冲击，呈现理性几何与感性触觉的碰撞。",
+    "quality_score": null,
+    "status": "approved",
+    "title": "自定义气球",
+    "tags": [
+      "3d",
+      "minimalist",
+      "toy",
+      "typography"
+    ],
+    "slug": "prompt-22",
+    "source_type": "crawled",
+    "source_url": "https://x.com/ZHO_ZHO_ZHO/status/1924121078559125841",
+    "twitterText": "GPT 4o = Style Generator！！！\n\n新风格出炉！！！🎈🎈🎈支持自定义字母/数字/logo/icon/图片、颜色\n\nballoon｜ZH4O｜创意系列｜GPT 4o Creation\n\n【提示 / Prompt】⬇️ https://t.co/Hm5Mxy5Icb"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-23/primary-0-1766861255569-g1kk8h7i.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-23/preview-0-1766861260235-gjbqiczl.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-23/primary-0-1766861255569-g1kk8h7i.png",
+    "prompt": "A flat isometric digital illustration of [describe the subject: e.g., a modern workspace, a city block, a group of app icons, a sports shop], clean lines and geometric forms, bright pastel colors, simplified perspective with 3D depth, minimal shading, white background or light gradient. Style resembles modern vector infographics, ideal for UI, app design or web visuals.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "平面设计等边风格",
+    "tags": [
+      "illustration",
+      "infographic",
+      "minimalist",
+      "ui"
+    ],
+    "slug": "prompt-23",
+    "source_type": "crawled",
+    "source_url": "https://x.com/Artedeingenio/status/1924388407939076377",
+    "twitterText": "This ChatGPT-4o style will be especially useful if you're a graphic designer or web developer:\n\nFlat Design Isometric Style\n\nA clean, 3D isometric composition using flat colors — perfect for illustrating icons, logos, objects, or miniature cityscapes. Ideal for vector-based UI, https://t.co/cJDGe051qy"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-24/primary-0-1766861235594-oorv8j6w.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-24/preview-0-1766861244914-3mb6hg8s.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-24/preview-1-1766861250552-i5byu5pd.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-24/primary-0-1766861235594-oorv8j6w.png",
+    "prompt": "A product photography shot of a [PRODUCT] inspired by [FOOD BRAND], placed against a soft light gray background. The product is sharply focused with soft studio lighting. The packaging design includes the official [FOOD BRAND] logo and reflects the brand’s colors and style. The product is sleek, glossy, and realistic, with high detail and elegant presentation. No food items, just the makeup product. Include only the makeup item in the shot. Modern aesthetic, luxury cosmetic branding",
+    "quality_score": null,
+    "status": "approved",
+    "title": "新市场中的美妆品牌",
+    "tags": [
+      "branding",
+      "food",
+      "photography",
+      "product"
+    ],
+    "slug": "prompt-24",
+    "source_type": "crawled",
+    "source_url": "https://x.com/azed_ai/status/1924439540028313693",
+    "twitterText": "New makeup brands in the market using GPT-4o\n\nprompt 👇 https://t.co/crZf6i8od2"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-25/primary-0-1766861225876-ez2ot5ax.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-25/preview-0-1766861228496-p0i0sfkc.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-25/primary-0-1766861225876-ez2ot5ax.jpeg",
+    "prompt": "Detailed photographic image of a miniature person in bed feeling cranky under an opened 'Delete Monday' keyboard keycap, using the inside of the keycap as a mini bedroom complete with the usual bedroom stuff",
+    "quality_score": null,
+    "status": "approved",
+    "title": "按键删除周一",
+    "tags": [
+      "interior",
+      "photography"
+    ],
+    "slug": "prompt-25",
+    "source_type": "crawled",
+    "source_url": "https://x.com/michaelrabone/status/1924374502529438005",
+    "twitterText": "Press Delete Monday... 🥱\n\nChatGPT-4o Prompt\nDetailed photographic image of a miniature person in bed feeling cranky under an opened 'Delete Monday' keyboard keycap, using the inside of the keycap as a mini bedroom complete with the usual bedroom stuff https://t.co/Fqdearj3i9"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-26/primary-0-1766861222758-343y00as.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-26/preview-0-1766861223938-cgziaxj7.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-26/primary-0-1766861222758-343y00as.jpeg",
+    "prompt": "An ultra-high resolution 8K cinematic render of the [Brand Name] logo, sculpted entirely from flowing crystal-clear water. The liquid forms every curve and edge of the brand’s logo with fluid precision, highlighted by vibrant neon accents inspired by [Brand Name]’s color identity. The background is pitch black, creating sharp contrast and drama. The lighting is dynamic, revealing sharp reflections, glowing edges, and the motion of water as it ripples and splashes. Droplets, shine, and soft glass-like textures give the logo a surreal, luxurious, and futuristic appearance — poster-quality, 1:1 format.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "水流身份",
+    "tags": [
+      "branding",
+      "futuristic",
+      "neon",
+      "poster"
+    ],
+    "slug": "prompt-26",
+    "source_type": "crawled",
+    "source_url": "https://x.com/aziz4ai/status/1924325011847884979",
+    "twitterText": "GPT-4o PROMPT: Waterform Identity\n\nWhat if brand logos weren’t just designed — but sculpted from flowing neon-lit water?\n\nHyper-detailed. 8K cinematic. Glass-sharp.\n\nThe prompt in the next comment ⬇️ https://t.co/TwWXZTEXuB"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-27/primary-0-1766861217662-xvvqp9eg.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-27/preview-0-1766861219747-a0lxsfca.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-27/primary-0-1766861217662-xvvqp9eg.png",
+    "prompt": "Create a image with 1:1 ratio\na dreamy brand ad of [Brand], a brand designed bubble-like capsule with brand color parachute packaging their classic product, against blue sky and other blurry parachute packaging, white cloud, a small brand logo on top, a tiny slogan beneath it, cinematic day lighting, lens flare, dof, hdr",
+    "quality_score": null,
+    "status": "approved",
+    "title": "品牌奢华之物从天而降",
+    "tags": [
+      "branding",
+      "product"
+    ],
+    "slug": "prompt-27",
+    "source_type": "crawled",
+    "source_url": "https://x.com/hc_dsn/status/1924390055231287650",
+    "twitterText": "⚪️ I used to chase aesthetics. ⚪️\n\nClean looks, luxury brands, nice lighting. \nBut it felt empty.\n\nThe problem?\nA pretty image isn’t enough! \nPeople scroll unless there’s an idea.\n\nWhat helped:\n– Add a twist (luxury falling from the sky)\n– Use objects as metaphors (desire, https://t.co/wknXRxJmQu"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-28/primary-0-1766861212414-xxtdi15t.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-28/preview-0-1766861214198-u269xz3j.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-28/primary-0-1766861212414-xxtdi15t.png",
+    "prompt": "A thrilling 3D cartoon scene: [CHARACTER1] runs through a narrow corridor inside [Place], chased at high speed by [CHARACTER2]. Their facial expressions reflect tension and focus, with beads of sweat glistening under dramatic lighting.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "狭窄走廊里奔跑",
+    "tags": [
+      "cartoon",
+      "character",
+      "vehicle"
+    ],
+    "slug": "prompt-28",
+    "source_type": "crawled",
+    "source_url": "https://x.com/B_4AI/status/1924410511392719343",
+    "twitterText": "A thrilling 3D cartoon scene: [CHARACTER1] runs through a narrow corridor inside [Place], chased at high speed by [CHARACTER2]. Their facial expressions reflect tension and focus, with beads of sweat glistening under dramatic lighting. https://t.co/z7bLVBpdLp"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-29/primary-0-1766861204550-3wt7f3ej.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-29/preview-0-1766861208757-cs86el04.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-29/primary-0-1766861204550-3wt7f3ej.png",
+    "prompt": "A highly realistic sculpture of a [object], made entirely from [bread type] with ultra-detailed texture and color. The surface shows the natural properties of the bread, golden-brown, glossy, flaky or crusty, with visible layers or seeds where appropriate, studio lighting, soft",
+    "quality_score": null,
+    "status": "approved",
+    "title": "面包形态",
+    "tags": [
+      "sculpture"
+    ],
+    "slug": "prompt-29",
+    "source_type": "crawled",
+    "source_url": "https://x.com/azed_ai/status/1924479430157812140",
+    "twitterText": "Shape your bread with GPT-4o 😍\n\nPrompt 👇 https://t.co/dQeVJZs9cx"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-30/primary-0-1766861194893-spsz99uy.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-30/preview-0-1766861197014-4wq3kapu.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-30/primary-0-1766861194893-spsz99uy.jpeg",
+    "prompt": "Prompt: A high-resolution photograph of a gold coin featuring the [COMPANY NAME] logo at the center. The coin should have the year [YEAR] engraved at the top. Include finely detailed engravings, ornamental border patterns, and authentic coin textures like reeded edges, matte",
+    "quality_score": null,
+    "status": "approved",
+    "title": "公司金币",
+    "tags": [
+      "photography"
+    ],
+    "slug": "prompt-30",
+    "source_type": "crawled",
+    "source_url": "https://x.com/umesh_ai/status/1924526898840822207",
+    "twitterText": "Imagine if companies made gold coins!\n\nChatGPT-4o prompt ⤵️ https://t.co/nxztNxn1ff"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-31/primary-0-1766861189872-iauwcsd8.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-31/preview-0-1766861191260-v6tac1jb.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-31/primary-0-1766861189872-iauwcsd8.jpeg",
+    "prompt": "高分辨率的摄影棚人像，一位惊艳年轻模特「安妮海瑟薇」为主角。她拥有一头顺直的黑发，背景为白色，无任何可辨识的元素。她的脸略微侧转，但目光直视镜头，目光强烈而专注，毫无动摇。\n\n她整张脸由拼图块组成——每一块都清晰可见，边缘整齐，具备细腻的立体感。她轻柔地用手指捏着一块刚从脸颊取下的拼图块，露出其下方一个空洞的黑色虚空。\n\n光线集中且具方向性，几乎不产生阴影，但准确地勾勒出皮肤的轮廓与拼图结构的立体感。整体氛围超现实、精准且高度写实。\n\n顶部有像时尚杂志一样的标题“ZHOGUE”（在人物后面）",
+    "quality_score": null,
+    "status": "approved",
+    "title": "超写实拼图肖像",
+    "tags": [
+      "3d",
+      "photography",
+      "portrait"
+    ],
+    "slug": "prompt-31",
+    "source_type": "crawled",
+    "source_url": "https://x.com/ZHO_ZHO_ZHO/status/1923999321634283862",
+    "twitterText": "Sora 一组创意的提示词！超写实拼图肖像！\n\n拼图人生｜ZH4O｜创意系列｜GPT 4o Creation\n\n【提示 / Prompt】⬇️【出处 / 来源】⬇️ https://t.co/FLDjl3FQl3"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-32/primary-0-1766861183942-kmlpnosl.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-32/preview-0-1766861186583-6tytksu2.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-32/primary-0-1766861183942-kmlpnosl.png",
+    "prompt": "Create a bold, warped cartoon-style text design with two distinct layers. The top layer should say “SUPER GNARLY” in warped bubble letters with a melty, drippy texture, like ghost slime or goo. The letters should feel heavy and organic, with a slightly psychedelic or paranormal vibe. The bottom layer should say “SOCIETY” in much smaller, script-like or handwritten-style letters that tuck underneath or nestle between the larger title letters. Both layers should be solid white with thick black outlines. No gradients, shading, or texture. Layout should be playful and a little chaotic, but still readable. Vector friendly. Blue background. Square aspect ratio.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "卡通风格文本标志",
+    "tags": [
+      "cartoon",
+      "logo",
+      "vehicle"
+    ],
+    "slug": "prompt-32",
+    "source_type": "crawled",
+    "source_url": "https://x.com/gnrlyxyz/status/1924466922545877098",
+    "twitterText": "Cartoon style text logos with GPT-4o.\n\nPROMPT:\nCreate a bold, warped cartoon-style text design with two distinct layers. The top layer should say “SUPER GNARLY” in warped bubble letters with a melty, drippy texture, like ghost slime or goo. The letters should feel heavy and https://t.co/asLDhiUNHP"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-33/primary-0-1766861172877-v7r3jvpp.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-33/preview-0-1766861179327-kix5bjof.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-33/primary-0-1766861172877-v7r3jvpp.png",
+    "prompt": "retexture the image attached in the following json aesthetic style:\n{\n  \"style\": \"Retro Pixel UI Icons\",\n  \"resolution\": \"low (32x32 or 48x48)\",\n  \"color_palette\": [\n    \"#F2F2F2\",  \n    \"#C0C0C0\",  \n    \"#000000\", \n    \"#FFFFFF\",  \n    \"#0000FF\",  \n    \"#00FF00\",  \n    \"#FFFF99\",  \n    \"#008080\" \n  ],\n  \"outline\": {\n    \"enabled\": true,\n    \"color\": \"#000000\",\n    \"thickness\": \"1px\"\n  },\n  \"shading\": {\n    \"method\": \"dithering\",\n    \"colors_used\": [\"base color\", \"highlight\", \"shadow\"],\n    \"pattern\": \"checkerboard or diagonal lines\"\n  },\n  \"lighting\": {\n    \"type\": \"flat\",\n    \"source\": \"top-left\",\n    \"highlight_color\": \"#FFFFFF\",\n    \"shadow_color\": \"#808080\"\n  },\n  \"background\": {\n    \"color\": \"#F2F2F2\",\n    \"type\": \"plain\",\n    \"transparency\": false\n  },\n  \"object_properties\": {\n    \"style\": \"pixel art\",\n    \"perspective\": \"isometric or front-facing\",\n    \"animation\": {\n      \"enabled\": false,\n      \"frame_style\": \"static pixel art\"\n    }\n  }\n}",
+    "quality_score": null,
+    "status": "approved",
+    "title": "复古像素UI图标",
+    "tags": [
+      "pixel",
+      "retro",
+      "ui"
+    ],
+    "slug": "prompt-33",
+    "source_type": "crawled",
+    "source_url": "https://x.com/egeberkina/status/1924462051474174222",
+    "twitterText": "Retro pixel vibes with GPT-4o &amp; JSON\n\nPrompt 👇 https://t.co/kk2nqeNTJg"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-34/primary-0-1766861164094-6lvtwtx9.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-34/preview-0-1766861166909-bwigl91l.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-34/primary-0-1766861164094-6lvtwtx9.jpeg",
+    "prompt": "A photograph captures a daytime scene with a [SUBJECT/OBJECT] formed by scattered clouds in the sky, positioned above a [LOCATION]",
+    "quality_score": null,
+    "status": "approved",
+    "title": "云的艺术",
+    "tags": [
+      "photography"
+    ],
+    "slug": "prompt-34",
+    "source_type": "crawled",
+    "source_url": "https://x.com/umesh_ai/status/1924473546216292441",
+    "twitterText": "ChatGPT-4o cloud art prompt ⤵️ https://t.co/9PVUo3jv2t"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-35/primary-0-1766861157808-whdo6vfj.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-35/preview-0-1766861159444-qmzf2xea.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-35/preview-1-1766861161370-dkkl7egc.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-35/primary-0-1766861157808-whdo6vfj.png",
+    "prompt": "A high-resolution vertical Pixar-style 3D character illustration.\n\nMain character:  \nSalvador Dalí — depicted as a tall, slim, and slightly exaggerated Pixar-style 3D character.  \nWearing a classic blue shirt, yellow tie, high-waisted plaid trousers with suspenders, and leather shoes.  \nHis iconic long upturned mustache, slick black hair, sharply arched eyebrows, and slightly eccentric posture.  \nStands with chest out, one hand on hip, head tilted slightly back in his typical theatrical flair.\n\nBackground:  \nFlat, clean yellow background with subtle surface texture.  \nStrong sunlight from top-left casts a distinct and enlarged shadow on the wall behind him.\n\nKey Concept – Shadow as spiritual projection:  \nThe shadow cast behind him does **not** mirror his body shape.  \nInstead, it takes the form of one of his most iconic artworks —  \na surreal melted clock with long dripping arms, inspired by “The Persistence of Memory”.\n\nThe melted clock shadow is positioned diagonally, starting from his shoulder,  \nstretching wide and low across the yellow wall, surreal and fluid, yet unmistakably symbolic.\n\nThis shadow is **Dalí’s legacy made visible** — a symbolic extension of his identity through time, dream, and visual distortion.\n\nLighting & Rendering:  \nPixar-like rendering with detailed but stylized textures.  \nUse subtle filmic grain, soft shadows, and warm color grading.  \nSubtle sparkles or light speckles inside the shadow to evoke dreamlike texture.\n\nTypography (top-left corner):  \n“Salvador Dalí” in minimalist black sans-serif font, “Dalí” bolded.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "人物戏剧夸张风格",
+    "tags": [
+      "character",
+      "illustration",
+      "minimalist",
+      "portrait",
+      "typography"
+    ],
+    "slug": "prompt-35",
+    "source_type": "crawled",
+    "source_url": "https://x.com/dotey/status/1924288320881750108",
+    "twitterText": "转发提示词：风格人物+精神投射 by 虎小象 @hx831126 \n\n不是单纯的Pixar风格，有点Designer Toy 风格\n让模型帮我加入了人物戏剧夸张的身形和表情「修长身形，大脚，块状的结构」\n以此慢慢的 让模型延展其他人物。\n\n提示词：\n\nA high-resolution vertical Pixar-style 3D character illustration.\n\nMain https://t.co/BZJUIt6X1Q"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-36/primary-0-1766861143637-bvnkm4ka.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-36/preview-0-1766861151206-tnn5oldu.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-36/primary-0-1766861143637-bvnkm4ka.png",
+    "prompt": "A mosaic mural of a [subject], crafted from chipped ceramic and glass shards in sun-faded [color1] and weathered [color2]. Set into a cracked plaster wall, the irregular shapes and grout lines add a rustic, timeworn charm.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "马赛克壁画",
+    "tags": [
+      "creative"
+    ],
+    "slug": "prompt-36",
+    "source_type": "crawled",
+    "source_url": "https://x.com/azed_ai/status/1924405701985853714",
+    "twitterText": "Prompt share: Mosaic\n\n💬Prompt:\nA mosaic mural of a [subject], crafted from chipped ceramic and glass shards in sun-faded [color1] and weathered [color2]. Set into a cracked plaster wall, the irregular shapes and grout lines add a rustic, timeworn charm.\n\nCheck ATLs for https://t.co/I46USFcxkN"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-37/primary-0-1766861135455-s9nwc57h.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-37/preview-0-1766861137079-vsxedtjs.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-37/primary-0-1766861135455-s9nwc57h.jpeg",
+    "prompt": "Recreate the [BRAND NAME] logo following the JSON Aesthetic below: {\n\"style\": \"Minecraft-style voxel 3D rendering\",\n\"logo_handling\": {\n\"adapt_to_uploaded_logo\": true,\n\"rebuild_logo_using_voxel_blocks\": true,\n\"use_original_logo_as_strict_pixel-color map\": true,\n\"preserve_text_in_logo\": true,\n\"preserve_text_case\": true,\n\"preserve_original_logo_colors\": true,\n\"preserve_shape_and_layout\": true\n\"aspect_ratio\": [INSERT ASPECT RATIO]\n},\n\"minecraft_conversion\": {\n\"voxel_depth\": \"medium thickness to show 3D volume\",\n\"block_style\": \"authentic Minecraft texture mapping\",\n\"color_strategy\": \"each block in the logo must match a pixel from the uploaded logo exactly — no estimation or stylistic substitution\",\n\"voxel_material_match\": \"map logo pixels to Minecraft block colors that visually match pixel color as closely as possible — no creative enhancements\",\n\"disable_palette_expansion\": true\n},\n\"scene_environment\": {\n\"base\": \"neutral terrain (gray concrete or light stone)\",\n\"background\": \"simple sky (clouds, no sun flare)\",\n\"optional_elements\": [\n\"Minecraft animals at a distance\",\n\"terrain vegetation in background only\"\n],\n\"environment_color_policy\": \"environment must not share colors used in the logo to prevent blending or confusion\"\n},\n\"lighting\": {\n\"neutral directional light\": true,\n\"do_not_adjust_logo_colors_for_lighting\": true,\n\"prevent_ambient_light_color_bleed\": true\n},\n\"camera\": {\n\"angle\": \"slightly top-down with 3D logo centered\",\n\"focus\": \"sharp focus on voxel logo only, environment softly rendered\"\n},\n\"render_quality\": {\n\"voxel_texture_resolution\": \"high\",\n\"shadows\": \"natural voxel-style ambient shadows only\",\n\"disable_artistic_effects\": true\n},\n\"post_processing\": {\n\"no glow effects\": true,\n\"no color correction\": true,\n\"disable AI reinterpretation of tones or palette\": true\n},\n\"image_constraints\": {\n\"transparent_background\": false,\n\"include_text\": true,\n\"preserve_text_case\": true,\n\"preserve_original_logo_colors\": true,\n\"obey_uploaded_logo_shape\": true,\n\"match_uploaded_logo_layout\": true,\n\"enforce_color_source_from_logo_only\": true\n},\n\"notes\": \"Rebuild the uploaded logo using Minecraft-style voxel blocks. Every block must represent one pixel from the logo's original image. No creative license is allowed in color, shape, or layout. The environment is decorative only and must not affect logo readability or color perception. The final image should appear as if the logo were physically constructed in a Minecraft world using blocks that match its exact colors and shapes.\"\n}",
+    "quality_score": null,
+    "status": "approved",
+    "title": "Logo放进我的世界中",
+    "tags": [
+      "animal",
+      "branding",
+      "gaming",
+      "landscape",
+      "logo",
+      "pixel"
+    ],
+    "slug": "prompt-37",
+    "source_type": "crawled",
+    "source_url": "https://x.com/alex_prompter/status/1924503062325989836",
+    "twitterText": "Drop your logos into Minecraft with ChatGPT-4o!\n\nPrompt 👇 https://t.co/NUK0I9ia41"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-38/primary-0-1766861124968-9nkyl5r9.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-38/preview-0-1766861130404-456o807u.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-38/preview-1-1766861132538-5do7socf.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-38/primary-0-1766861124968-9nkyl5r9.png",
+    "prompt": "Hand-Carved Wooden Puppet (Czech Marionette Style)\n\nA hand-carved wooden marionette interpretation of [SUBJECT], with jointed limbs, painted details, and a slightly eerie antique finish. Showcase theatrical posture, stage lighting, and cultural craftsmanship in the styling.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "捷克木偶风格",
+    "tags": [
+      "vehicle"
+    ],
+    "slug": "prompt-38",
+    "source_type": "crawled",
+    "source_url": "https://x.com/AllaAisling/status/1924231647894896732",
+    "twitterText": "Prompt Share: Hand-Carved Wooden Puppet (Czech Marionette Style)\n\nA hand-carved wooden marionette interpretation of [SUBJECT], with jointed limbs, painted details, and a slightly eerie antique finish. Showcase theatrical posture, stage lighting, and cultural craftsmanship in the https://t.co/Xs1NVJ1N4u"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-39/primary-0-1766861106617-bscnpplu.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-39/preview-0-1766861114803-ay58dhbc.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-39/preview-1-1766861119726-m24aw0h3.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-39/primary-0-1766861106617-bscnpplu.png",
+    "prompt": "[SUBJECT] reinterpreted through Cyber Matrix Dreamscapes, where cascading streams of digital code form the immersive backdrop. Imbue the scene with radical neon [COLOR1] and luminous [COLOR2] accents to evoke a futuristic reality where art converges with algorithm",
+    "quality_score": null,
+    "status": "approved",
+    "title": "网络矩阵梦境",
+    "tags": [
+      "futuristic",
+      "neon",
+      "sci-fi"
+    ],
+    "slug": "prompt-39",
+    "source_type": "crawled",
+    "source_url": "https://x.com/LudovicCreator/status/1924382022002250151",
+    "twitterText": "🎨 CYBER MATRIX DREAMSCAPES🎨\n\nBase prompt :\n\n[SUBJECT] reinterpreted through Cyber Matrix Dreamscapes, where cascading streams of digital code form the immersive backdrop. Imbue the scene with radical neon [COLOR1] and luminous [COLOR2] accents to evoke a futuristic reality https://t.co/LTuMiwvFmg"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-40/primary-0-1766861097285-cp9rsss6.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-40/preview-0-1766861099281-5zbg1arl.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-40/primary-0-1766861097285-cp9rsss6.jpeg",
+    "prompt": "A cinematic 1:1 scene featuring the iconic leader of [Brand Name] riding a futuristic electric motorcycle that reflects the brand’s identity. He wears a high-detail black or brand-colored carbon fiber leather jacket, with the [Brand Name] logo embroidered boldly on the chest and",
+    "quality_score": null,
+    "status": "approved",
+    "title": "品牌领导骑行",
+    "tags": [
+      "branding",
+      "futuristic",
+      "vehicle"
+    ],
+    "slug": "prompt-40",
+    "source_type": "crawled",
+    "source_url": "https://x.com/aziz4ai/status/1924527136657834468",
+    "twitterText": "GPT-4o PROMPT:What if brand legends rode like rebels?\n\nFrom Elon to Sam to Bezos\ncinematic riders, embroidered logos, and slogans that hit like lightning.\n\nImagined with AI. Designed to look real.\n\nWho rides next share with me?\n\nThe prompt in the next comment ⬇️ https://t.co/mTN6TFiGSd"
+  },
+  {
+    "model": "ChatGPT",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-41/primary-0-1766861092841-mts60iog.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-41/preview-0-1766861094136-268w8yvc.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-41/primary-0-1766861092841-mts60iog.jpeg",
+    "prompt": "Transform the cartoon character from the reference image into a hyper-realistic human while maintaining their core attributes (clothing, hairstyle, facial expression, accessories, and proportions, age and so on). Create a photorealistic portrait",
+    "quality_score": null,
+    "status": "approved",
+    "title": "卡通角色转换成超写实人类",
+    "tags": [
+      "cartoon",
+      "character",
+      "photography",
+      "portrait",
+      "vehicle"
+    ],
+    "slug": "prompt-41",
+    "source_type": "crawled",
+    "source_url": "https://x.com/The_Real_Bersek/status/1917174101627617752",
+    "twitterText": "ChatGPT image gen is amazing🙀  \nPrompt in the 🧵 https://t.co/S6VugMKKTK"
+  },
+  {
+    "model": "ChatGPT",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-42/primary-0-1766861088535-nk27yy2k.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-42/preview-0-1766861090274-xuj7h1li.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-42/primary-0-1766861088535-nk27yy2k.jpeg",
+    "prompt": "Recreate this [BRAND NAME] logo follow the JSON aesthetic below: \n{\n    \"style\": \"hyperrealistic miniature photography\",\n    \"scene\": {\n        \"main_subject\": \"uploaded logo scaled to appear as a large physical object\",\n        \"interaction\": \"tiny human figures interacting with the logo\",\n        \"activities\": [\n            \"cleaning the logo\",\n            \"painting parts of the logo\",\n            \"climbing ladders on the logo surface\",\n            \"taking photographs of the logo\"\n        ],\n        \"environment\": \"studio-style white background to focus on details\",\n        \"perspective\": \"frontal view with shallow depth of field for macro effect\"\n    },\n    \"logo_handling\": {\n        \"preserve_original_logo_shape\": true,\n        \"preserve_original_logo_colors\": true,\n        \"preserve_text_in_logo\": true,\n        \"use_logo_as_structural_object\": true,\n        \"adapt_logo_to_3D_surface\": true\n    },\n    \"miniature_elements\": {\n        \"figure_scale\": \"1:50 ratio to logo\",\n        \"figure_details\": \"tiny realistic humans with props like brushes, ropes, and scaffolding\",\n        \"interaction_type\": \"physical interaction, not illustration or overlay\"\n    },\n    \"lighting\": {\n        \"key_light\": \"soft diffused white light from above\",\n        \"fill_light\": \"mild side fill to reveal depth and volume\",\n        \"shadows\": \"realistic and subtle around base and figures\"\n    },\n    \"camera\": {\n        \"focus_mode\": \"macro with shallow depth of field\",\n        \"angle\": \"slightly top-down to give sense of scale\",\n        \"background\": \"clean white surface, no gradient, no transparency\"\n    },\n    \"post_processing\": {\n        \"realism_enhancement\": \"preserve logo clarity, crisp text, no artistic blurring\",\n        \"forbid_artistic_filters\": true,\n        \"forbid_color_modifications\": true\n    },\n    \"image_constraints\": {\n        \"transparent_background\": false,\n        \"include_text\": true,\n        \"adapt_to_uploaded_logo\": true,\n        \"obey_logo_shape\": true,\n        \"preserve_original_logo_colors\": true\n    },\n    \"notes\": \"The uploaded logo must be clearly recognizable, unmodified, and serve as the core structural element of the scene. Tiny people should interact with the logo realistically, as if it were a large 3D object in a physical miniature world.\"\n}",
+    "quality_score": null,
+    "status": "approved",
+    "title": "Logo超写实微型摄影",
+    "tags": [
+      "branding",
+      "illustration",
+      "landscape",
+      "logo",
+      "photography"
+    ],
+    "slug": "prompt-42",
+    "source_type": "crawled",
+    "source_url": "https://x.com/alex_prompter/status/1923036265013801025",
+    "twitterText": "Turn your logos into miniature photography with ChatGPT 4o!\n\nPrompt 👇 https://t.co/gPvJKun1yT"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-43/primary-0-1766861084275-u6fujz38.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-43/preview-0-1766861085870-v5dgzdwf.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-43/primary-0-1766861084275-u6fujz38.jpeg",
+    "prompt": "generate[concept] icon with this json style:\n{\n    \"icon_style\": {\n        \"perspective\": \"isometric\",\n        \"geometry\": {\n            \"proportions\": \"1:1 ratio canvas, with objects fitting comfortably within margins\",\n            \"element_arrangement\": \"central dominant object, with supporting elements symmetrically or diagonally placed\"\n        },\n        \"composition\": {\n            \"element_count\": \"2–4 main objects\",\n            \"spatial_depth\": \"layered to create sense of dimension and slight elevation\",\n            \"scale_consistency\": \"uniform object scale across icon set\",\n            \"scene_density\": \"minimal to moderate, maintaining clarity and visual focus\"\n        },\n        \"lighting\": {\n            \"type\": \"soft ambient light\",\n            \"light_source\": \"subtle top-right or front-top direction\",\n            \"shadow\": \"gentle drop shadows below and behind objects\",\n            \"highlighting\": \"mild edge illumination to define forms\"\n        },\n        \"textures\": {\n            \"material_finish\": \"semi-matte to satin surfaces\",\n            \"surface_treatment\": \"smooth with light tactile variation (e.g., wood grain, soft textures)\",\n            \"texture_realism\": \"stylized naturalism without hyper-realistic noise\"\n        },\n        \"render_quality\": {\n            \"resolution\": \"high-resolution octane 3D rendering\",\n            \"edge_definition\": \"crisp, no outlines; separation achieved via lighting and depth\",\n            \"visual_clarity\": \"clean, readable shapes with minimal clutter\"\n        },\n        \"color_palette\": {\n            \"tone\": \"naturalistic with slight saturation boost\",\n            \"range\": \"harmonious muted tones with gentle contrast\",\n            \"usage\": \"distinct colors per object to improve identification and readability\"\n        },\n        \"background\": {\n            \"color\": \"#FFFFFF\",\n            \"style\": \"pure white, flat\",\n            \"texture\": \"none\"\n        },\n        \"stylistic_tone\": \"premium, friendly, clean with lifestyle or service-oriented appeal\",\n        \"icon_behavior\": {\n            \"branding_alignment\": \"neutral enough for broad applications\",\n            \"scalability\": \"legible at small and medium sizes\",\n            \"interchangeability\": \"part of a cohesive icon system with interchangeable subject matter\"\n        }\n    }\n}",
+    "quality_score": null,
+    "status": "approved",
+    "title": "Airbnb风格的图标",
+    "tags": [
+      "branding",
+      "fashion",
+      "minimalist"
+    ],
+    "slug": "prompt-43",
+    "source_type": "crawled",
+    "source_url": "https://x.com/hc_dsn/status/1924665909073084507",
+    "twitterText": "⚪️ Make your own Airbnb style Icons ⚪️    \n\nYes, ChatGPT-4o can literally make icons in Airbnb’s 3D aesthetic and it's shockingly good and easy!\n\nI manage to convert them into a JSON-style spec for consistency and reuse.\n\n✨Prompt in the Comment\n\n--------       \n\n✨Create with https://t.co/ot4JcWMe61"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-44/primary-0-1766861073780-p9t5ih3g.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-44/preview-0-1766861080098-86pgkq0s.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-44/primary-0-1766861073780-p9t5ih3g.png",
+    "prompt": "[SUBJECT] surrounded by an Enchanted Particle Bloom, with particles resembling magical flower petals or leaves. Employ soft, enchanting hues of [COLOR1] and [COLOR2] to create a sense of natural magic.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "附魔粒子泛光",
+    "tags": [
+      "creative"
+    ],
+    "slug": "prompt-44",
+    "source_type": "crawled",
+    "source_url": "https://x.com/LudovicCreator/status/1925069047948849443",
+    "twitterText": "🎨ENCHANTED PARTICLE BLOOM🎨\n\nBase prompt :\n\n[SUBJECT] surrounded by an Enchanted Particle Bloom, with particles resembling magical flower petals or leaves. Employ soft, enchanting hues of [COLOR1] and [COLOR2] to create a sense of natural magic.\n\nCheck ALTS https://t.co/CkrdCudfh1"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-45/primary-0-1766861063181-ura85hez.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-45/preview-0-1766861066772-hs4ifc4j.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-45/primary-0-1766861063181-ura85hez.jpeg",
+    "prompt": "transform it into part of a miniature mechanical scene from the 1940s or ’50s, featuring:\n\n➕Shiny enamel-painted metal characters and objects.\n➕Riveted details and visible joints.\n➕Illustrated cardboard backdrops with vintage charm.\n➕Wind-up toy-style settings with gears and wheels.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "复古锡玩具立体模型风格",
+    "tags": [
+      "3d",
+      "character",
+      "retro",
+      "toy",
+      "vehicle"
+    ],
+    "slug": "prompt-45",
+    "source_type": "crawled",
+    "source_url": "https://x.com/Artedeingenio/status/1920423915211375060",
+    "twitterText": "Today I’m bringing you a brand-new ChatGPT-4o style that I personally love — and it’s super fun:\n\nRetro Tin Toy Diorama Style 🧸🔩🎨\n\nUpload your photo and transform it into part of a miniature mechanical scene from the 1940s or ’50s, featuring:\n\n➕Shiny enamel-painted metal https://t.co/iXwZwRMBUA"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-46/primary-0-1766861055639-tupvaxs2.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-46/preview-0-1766861057706-1fazh8vf.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-46/primary-0-1766861055639-tupvaxs2.jpeg",
+    "prompt": "Create a surrealistic image about diabetes that conveys the message in a powerful and influential way. Plan and prepare the visual concept and prompt, then generate the image as a photograph with a caption.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "简单的输入中构思和创建有影响力的图像",
+    "tags": [
+      "photography"
+    ],
+    "slug": "prompt-46",
+    "source_type": "crawled",
+    "source_url": "https://x.com/umesh_ai/status/1925397022011527192",
+    "twitterText": "A picture is worth a thousand words. ChatGPT-4o can ideate and create impactful images from simple input. The possibilities are endless.\n\nI asked for a diabetes awareness image, and both results came out amazing!\n\nPrompt is in the ALT text. https://t.co/JeNns0OxjA"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-47/primary-0-1766861046530-op7f8w7w.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-47/preview-0-1766861051571-p5469j67.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-47/primary-0-1766861046530-op7f8w7w.png",
+    "prompt": "[SUBJECT] depicted in a Sepia-Toned Silent Film Scene, evoking the drama and expression of early cinema. Use muted [COLOR1] and [COLOR2] sepia tones to enhance the nostalgic atmosphere",
+    "quality_score": null,
+    "status": "approved",
+    "title": "无声电影场景",
+    "tags": [
+      "landscape"
+    ],
+    "slug": "prompt-47",
+    "source_type": "crawled",
+    "source_url": "https://x.com/LudovicCreator/status/1925469185288572953",
+    "twitterText": "🎨SILENT FILM SCENE🎨\n\nBase prompt :\n\n[SUBJECT] depicted in a Sepia-Toned Silent Film Scene, evoking the drama and expression of early cinema. Use muted [COLOR1] and [COLOR2] sepia tones to enhance the nostalgic atmosphere\n\nCheck ALTS https://t.co/BmT3MNLMP7"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-48/primary-0-1766861027463-svrflzqa.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-48/preview-0-1766861037739-89ekijac.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-48/primary-0-1766861027463-svrflzqa.png",
+    "prompt": "Transform this image into a realistic police mugshot.\nAdd a gray background with height markings, harsh frontal lighting, and a nameplate with the person's name and a case number.\nThe photo should look like an official FBI or police booking photo, vertical format (4:5), with a neutral expression and no accessories.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "警方照片风格",
+    "tags": [
+      "photography"
+    ],
+    "slug": "prompt-48",
+    "source_type": "crawled",
+    "source_url": "https://x.com/Artedeingenio/status/1925475465029919163",
+    "twitterText": "This style for ChatGPT-4o is super fun:\n\nPolice Mugshot Style\n\nAnd the best part? You can play with tons of variations:\n\n🔹 General — Realistic Police Mugshot\nPrompt:\nTransform this image into a realistic police mugshot.\nAdd a gray background with height markings, harsh frontal https://t.co/Cz8FrGFl90"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-49/primary-0-1766861015710-13gzmdm8.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-49/preview-0-1766861017825-0p86ly7i.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-49/primary-0-1766861015710-13gzmdm8.jpeg",
+    "prompt": "Create a hyper-realistic image where [SHAPE] shape is formed by the magical parting of [wavy] blue ocean, with the [SHAPE] shape being a [COLOUR] empty land. The top view should show the water being pushed aside by an unseen force, creating the [SHAPE] with an ultra-thin line. The stark [COLOR] color of the [SHAPE] interior should contrast with the vibrant blue water around it, emphasizing the supernatural effect as if the water is being parted to reveal the [SHAPE] shape distinctly.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "超现实海洋图案",
+    "tags": [
+      "interior"
+    ],
+    "slug": "prompt-49",
+    "source_type": "crawled",
+    "source_url": "https://x.com/umesh_ai/status/1925424557638500838",
+    "twitterText": "Prompt: Create a hyper-realistic image where [SHAPE] shape is formed by the magical parting of [wavy] blue ocean, with the [SHAPE] shape being a [COLOUR] empty land. The top view should show the water being pushed aside by an unseen force, creating the [SHAPE] with an ultra-thin https://t.co/EAE1tKjIFc"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-50/primary-0-1766861006144-6riiynsx.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-50/preview-0-1766861011918-nr1k0srp.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-50/primary-0-1766861006144-6riiynsx.png",
+    "prompt": "looking through a [MATERIAL] keyhole towards a mythical [WORLD] dark fantasy, [very black background] around keyhole, sharp focus, photographic",
+    "quality_score": null,
+    "status": "approved",
+    "title": "通过钥匙孔看世界",
+    "tags": [
+      "fantasy",
+      "photography"
+    ],
+    "slug": "prompt-50",
+    "source_type": "crawled",
+    "source_url": "https://x.com/icreatelife/status/1925268371227971871",
+    "twitterText": "New prompt for you to play with - Through the keyhole \n\nprompt: looking through a [MATERIAL] keyhole towards a mythical [WORLD] dark fantasy, [very black background] around keyhole, sharp focus, photographic\n\nWould love to see your keyhole creations. Have a great week! https://t.co/t5VLXkeRBL"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-51/primary-0-1766860991673-9d74viym.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-51/preview-0-1766860998806-hv1lpsio.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-51/primary-0-1766860991673-9d74viym.png",
+    "prompt": "bioluminescent cute [ANIMAL], kawaii, chibi, [COLOR] neon backlit, 3d cartoon, big cute bright eyes, high definition",
+    "quality_score": null,
+    "status": "approved",
+    "title": "霓虹灯发光的可爱动物",
+    "tags": [
+      "3d",
+      "animal",
+      "cartoon",
+      "neon",
+      "vehicle"
+    ],
+    "slug": "prompt-51",
+    "source_type": "crawled",
+    "source_url": "https://x.com/icreatelife/status/1923819449305509924",
+    "twitterText": "Weekend prompt for you to play with - neon glowing cute ちびキャラ animals \n\nprompt: bioluminescent cute [ANIMAL], kawaii, chibi, [COLOR] neon backlit, 3d cartoon, big cute bright eyes, high definition\n\nWould love to see your cute creations. Have a great weekend! https://t.co/hv2e81aLXA"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-52/primary-0-1766860976859-cjtfqej8.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-52/preview-0-1766860979309-xxr34b5q.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-52/primary-0-1766860976859-cjtfqej8.jpeg",
+    "prompt": "tilt-shift photo of a grand piano keyboard, side view from the left looking along the keys to the right, shallow depth of field, tiny human figures cleaning the piano keys with brushes, cloths, and buckets, whimsical and surreal scene, soft lighting, hyper-detailed, high realism",
+    "quality_score": null,
+    "status": "approved",
+    "title": "清洁琴键的小人物",
+    "tags": [
+      "photography",
+      "portrait"
+    ],
+    "slug": "prompt-52",
+    "source_type": "crawled",
+    "source_url": "https://x.com/BeanieBlossom/status/1925522114972713147",
+    "twitterText": "Prompt: tilt-shift photo of a grand piano keyboard, side view from the left looking along the keys to the right, shallow depth of field, tiny human figures cleaning the piano keys with brushes, cloths, and buckets, whimsical and surreal scene, soft lighting, hyper-detailed, high https://t.co/oEiVA3JrwV"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-53/primary-0-1766860967349-ot5qr45h.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-53/preview-0-1766860970320-l8hdy004.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-53/primary-0-1766860967349-ot5qr45h.jpeg",
+    "prompt": "A small house made of flowers, a tree with colorful leaves growing on top and around the door, in the style of fantasy, mountainscape in the background, natural lighting, soft colors, rich details, and a full atmosphere, subtle painterly style",
+    "quality_score": null,
+    "status": "approved",
+    "title": "由鲜花组成的小房子",
+    "tags": [
+      "fantasy",
+      "nature"
+    ],
+    "slug": "prompt-53",
+    "source_type": "crawled",
+    "source_url": "https://x.com/BeanieBlossom/status/1925461720639971505",
+    "twitterText": "Prompt: A small house made of flowers, a tree with colorful leaves growing on top and around the door, in the style of fantasy, mountainscape in the background, natural lighting, soft colors, rich details, and a full atmosphere, subtle painterly style\n\nFeel free to join in :) https://t.co/7mOk6gk5zi"
+  },
+  {
+    "model": "ChatGPT",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-54/primary-0-1766860949854-25t4qt0y.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-54/preview-0-1766860958244-9ni63vs4.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-54/primary-0-1766860949854-25t4qt0y.jpeg",
+    "prompt": "Create a minimalist image of a [SUBJECT] using three geometric shapes, using a different color in each shape",
+    "quality_score": null,
+    "status": "approved",
+    "title": "三种形状和三种颜色",
+    "tags": [
+      "minimalist"
+    ],
+    "slug": "prompt-54",
+    "source_type": "crawled",
+    "source_url": "https://x.com/umesh_ai/status/1925569394924740817",
+    "twitterText": "Three Shapes and Three Colors!\n\nA ChatGPT 4o prompt : Create a minimalist image of a [SUBJECT] using three geometric shapes, using a different color in each shape https://t.co/8fGEM0ygXh"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-55/primary-0-1766860944801-k80e71dw.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-55/preview-0-1766860947026-jme8a3tz.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-55/primary-0-1766860944801-k80e71dw.jpeg",
+    "prompt": "Create a 2D digital illustration of the [FIREFOX] logo in a colorful cartoon style with bold black outlines. The icon design should feature playful, vibrant solid colors such as pink, teal, orange, yellow, and purple, applied in a flat, bold way. Give the shapes a slightly exaggerated, bubbly form with rounded edges and fun details like starbursts, stripes, or spark effects if relevant. Keep the illustration simple and stylized with a hand-drawn look. Use thick outlines to emphasize form. Vector friendly. White background. Square aspect ratio.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "彩色卡通俏皮图标和徽标",
+    "tags": [
+      "cartoon",
+      "illustration",
+      "vehicle"
+    ],
+    "slug": "prompt-55",
+    "source_type": "crawled",
+    "source_url": "https://x.com/gnrlyxyz/status/1925553233881145499",
+    "twitterText": "Playful icons and logos with GPT-4o.\n\nPROMPT:\nCreate a 2D digital illustration of the [FIREFOX] logo in a colorful cartoon style with bold black outlines. The icon design should feature playful, vibrant solid colors such as pink, teal, orange, yellow, and purple, applied in a https://t.co/8Ao79z2xbW"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-56/primary-0-1766860937795-4tgkqp6z.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-56/preview-0-1766860941217-lk06xtos.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-56/primary-0-1766860937795-4tgkqp6z.jpeg",
+    "prompt": "photorealistic image of a [COLOR] 3D [SUBJECT] encased in a luxurious transparent box, viewed from an enhanced side angle to better reveal the 3D shape of the [SUBJECT]. The box should be white, exquisitely designed, featuring crystal-clear glass with refined, sharp edges",
+    "quality_score": null,
+    "status": "approved",
+    "title": "玻璃盒内的图像可视化",
+    "tags": [
+      "photography"
+    ],
+    "slug": "prompt-56",
+    "source_type": "crawled",
+    "source_url": "https://x.com/umesh_ai/status/1925462472825442469",
+    "twitterText": "ChatGPT-4o prompt to visualize any object/image reference within a glass box ⤵️ https://t.co/yITrhFjF7J"
+  },
+  {
+    "model": "ChatGPT",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-57/primary-0-1766860928751-atdg4rtw.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-57/preview-0-1766860934029-lxv31594.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-57/primary-0-1766860928751-atdg4rtw.png",
+    "prompt": "Crea un render 3D fotorrealista de este logo hecho con hilo grueso y tejido a mano. El hilo debe parecer suave, esponjoso y de gran tamaño, con patrones visibles de tejido como bucles, giros y trenzas. Usa colores brillantes y saturados, estética cálida. Resalta la textura de las fibras, la suavidad del material y el acabado artesanal. Iluminación de estudio suave. Fondo blanco o crema limpio. El logo debe estar centrado y sin elementos adicionales. Cuadrado.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "手工毛线纹理",
+    "tags": [
+      "creative"
+    ],
+    "slug": "prompt-57",
+    "source_type": "crawled",
+    "source_url": "https://x.com/ecommartinez/status/1925272798479405479",
+    "twitterText": "Aquí tienes el prompt definitivo de ChatGPT para generar esta textura en todos los logotipos que quieras! 😁\n\n→ \"Crea un render 3D fotorrealista de este logo hecho con hilo grueso y tejido a mano. El hilo debe parecer suave, esponjoso y de gran tamaño, con patrones visibles de https://t.co/CAa72bDTPh"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-58/primary-0-1766860911056-361d94iz.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-58/preview-0-1766860918119-in7x7ztw.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-58/primary-0-1766860911056-361d94iz.png",
+    "prompt": "[SUBJECT] in a cinematic painting, battling amid crumbling ruins under a colossal blood moon — ambient sparks flying. Set in an ancient valley, illuminated by firelight and shadows. soft [COLOR1] and vibrant [COLOR2], mood intense and epic.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "血月下的决斗",
+    "tags": [
+      "creative"
+    ],
+    "slug": "prompt-58",
+    "source_type": "crawled",
+    "source_url": "https://x.com/B_4AI/status/1925509492298375388",
+    "twitterText": "⚔️ The Final Duel Beneath the Blood Moon ⚔️\n\nBase prompt:\n[SUBJECT] in a cinematic painting, battling amid crumbling ruins under a colossal blood moon — ambient sparks flying. Set in an ancient valley, illuminated by firelight and shadows. soft [COLOR1] and vibrant [COLOR2], mood https://t.co/fTCm6tlxIy"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-59/primary-0-1766860888705-6inongxo.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-59/preview-0-1766860895378-yh55as4s.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-59/primary-0-1766860888705-6inongxo.png",
+    "prompt": "A humorous cartoon scene set inside a military training classroom, featuring a group of [Insect Name] soldiers sitting at desks, wearing tiny helmets and miniature combat gear. They listen attentively to their commander, who stands in front of a large board displaying a sketch of a threat to their existence — the enemy changes depending on the animal or insect. The commander explains the attack plan using a pointer, highlighting sensitive targets with red circles. Some soldiers take notes, others whisper tactical ideas to each other. The overall atmosphere blends seriousness with satire in an exaggerated cartoon style.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "军事计划",
+    "tags": [
+      "animal",
+      "cartoon",
+      "interior",
+      "vehicle"
+    ],
+    "slug": "prompt-59",
+    "source_type": "crawled",
+    "source_url": "https://x.com/B_4AI/status/1925479609442738486",
+    "twitterText": "خطط عسكرية - Military plans\n\n💬 Prompt: ⬇️ https://t.co/SzyXhsvV3Q"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-60/primary-0-1766860880461-ms4l3vy1.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-60/preview-0-1766860882220-pq5wyl82.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-60/primary-0-1766860880461-ms4l3vy1.jpeg",
+    "prompt": "a vertical 2:3 high-resolution food advertisement featuring the most iconic and delicious product from a well-known brand called [INSERT BRAND NAME]. The product appears centered with mouthwatering details — such as melted cheese, dripping chocolate, whipped cream, or condensation — depending on the product. The background should be a gradient or pastel tone inspired by the brand’s identity. At the top, display a bold slogan in a color that matches the brand’s style. At the bottom, include the official logo of the brand. Use cinematic studio lighting, soft shadows, and ultra-sharp textures to create a visually irresistible and minimal poster.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "令人垂涎欲滴的广告",
+    "tags": [
+      "branding",
+      "food",
+      "minimalist",
+      "poster",
+      "product"
+    ],
+    "slug": "prompt-60",
+    "source_type": "crawled",
+    "source_url": "https://x.com/aziz4ai/status/1925470550035476622",
+    "twitterText": "GPT-4o PROMPT: Melty Bliss\n\nThe most mouthwatering ad format just dropped!\n\nVertical. Minimal. Delicious.\nYou only need to enter the brand name once — and GPT-4o takes care of everything else: the product, background, slogan, and logo.\n\nThe prompt in the next comment ⬇️ https://t.co/edbaTY3Owv"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-61/primary-0-1766860868137-zyg83dwf.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-61/preview-0-1766860875614-udphgzkz.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-61/primary-0-1766860868137-zyg83dwf.png",
+    "prompt": "A close-up of [SUBJECT 1] holding a mirror shard to their face. The shard reflects a completely different [SUBJECT 2]. Around them, small cracks spread through the air like fractures in invisible glass, warping the space itself.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "破碎的真相",
+    "tags": [
+      "creative"
+    ],
+    "slug": "prompt-61",
+    "source_type": "crawled",
+    "source_url": "https://x.com/TheRelianceAI/status/1925918144163450890",
+    "twitterText": "Fractured Truth by GPT-4o\n\nPrompt in the next post⬇️ https://t.co/I3A1EkmBRE"
+  },
+  {
+    "model": "ChatGPT",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-62/primary-0-1766860858101-qrwdcxp3.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-62/preview-0-1766860860247-xupeo25o.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-62/primary-0-1766860858101-qrwdcxp3.jpeg",
+    "prompt": "Create a vertical 9:16 brand design guide poster using the uploaded product image. Adapt the design style to match the product’s niche and visual identity. Structure the poster with clear, elegant sections: (1) Large logo display and safe zone usage, (2) Product mockup centered and highlighted, (3) Primary and secondary color palette swatches with hex codes, (4) Typography guide with heading, subheading, body font samples, and line spacing specs, (5) Iconography or graphic motif examples used by the brand, (6) Image treatment style with sample lifestyle or studio visuals, (7) Grid system or layout rules, (8) Packaging mockups and surface applications, (9) Do’s & Don’ts with annotated visuals. Use minimalist white or soft neutral background with structured layout dividers and drop shadows. The result must be visually rich, clean, and suitable for a printed or digital brand book.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "品牌设计指南海报",
+    "tags": [
+      "branding",
+      "minimalist",
+      "poster",
+      "product",
+      "typography"
+    ],
+    "slug": "prompt-62",
+    "source_type": "crawled",
+    "source_url": "https://x.com/ai4everyday/status/1925838516979646795",
+    "twitterText": "✅ Prompt Share ✅\nGet a Brand Guidlines lookalike poster\nwith this magic ChatGPT 4o ImageGen prompt.\n\n👇Prompt in the first comment. https://t.co/UACmkn4Ba0"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-63/primary-0-1766860850612-5jv552en.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-63/preview-0-1766860853430-lm974vw2.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-63/primary-0-1766860850612-5jv552en.jpeg",
+    "prompt": "A dramatic cinematic scene featuring two rival products placed side by side in a custom-designed environment that visually reflects their identities. The composition should include high contrast lighting, atmospheric effects like mist, fog, or neon glow, and hyper-detailed textures. Incorporate a powerful 3D slogan below or behind the products in bold stylized typography that fits the scene’s mood. The products must reflect the essence of [Brand A] and [Brand B] through color, lighting, and placement. Ultra-realistic, moody tones, 1:1 square format, with sharp depth of field and high resolution.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "选择你的阵营",
+    "tags": [
+      "branding",
+      "landscape",
+      "neon",
+      "product",
+      "typography"
+    ],
+    "slug": "prompt-63",
+    "source_type": "crawled",
+    "source_url": "https://x.com/aziz4ai/status/1925595213726097803",
+    "twitterText": "GPT-4o PROMPT: Pick Your Side\n\nNike or Adidas?\nPepsi or Coca-Cola?\nPlayStation or Xbox?\nTesla or BMW?\n\nCinematic battles. 3D slogans. Every frame is a choice.\n\nThe prompt in the next comment ⬇️ https://t.co/uqGlkqdSov"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-64/primary-0-1766860840810-vfvwha10.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-64/preview-0-1766860844995-22z1i6ob.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-64/primary-0-1766860840810-vfvwha10.png",
+    "prompt": "A cave painting of a [subject], rendered with primitive ochres and charcoal lines on a rough stone wall. Smudged handprints, crude geometry, and flickering torchlight add a primal, ancient mood.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "洞壁画",
+    "tags": [
+      "creative"
+    ],
+    "slug": "prompt-64",
+    "source_type": "crawled",
+    "source_url": "https://x.com/azed_ai/status/1925854528831643689",
+    "twitterText": "Prompt share: Cave painting\n\n💬Prompt:\nA cave painting of a [subject], rendered with primitive ochres and charcoal lines on a rough stone wall. Smudged handprints, crude geometry, and flickering torchlight add a primal, ancient mood.\n\nCheck ATLs for inspiration ✨ https://t.co/Lfjys5TCCN"
+  },
+  {
+    "model": "ChatGPT",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-65/primary-0-1766860834932-9tr4wy7d.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-65/preview-0-1766860836206-9g3fzdyh.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-65/primary-0-1766860834932-9tr4wy7d.jpeg",
+    "prompt": "A photorealistic image of the word '[NAME]' spelled out using torn, highly crumpled pieces of white paper. Each letter is painted in bold [COLOR] on individual scraps, arranged loosely and unevenly, as if placed casually by hand, on a wooden table. The composition should convey a natural, handmade aesthetic with visible creases, shadows, and wood grain detail",
+    "quality_score": null,
+    "status": "approved",
+    "title": "皱巴巴的纸片",
+    "tags": [
+      "paper-craft",
+      "photography"
+    ],
+    "slug": "prompt-65",
+    "source_type": "crawled",
+    "source_url": "https://x.com/umesh_ai/status/1925868463689462049",
+    "twitterText": "Made with crumpled pieces of paper!\n\nChatGPT 4o prompt ⤵️ https://t.co/g3K2zn2jM0"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-66/primary-0-1766860830970-3nlwxmzl.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-66/preview-0-1766860832651-9901cx55.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-66/primary-0-1766860830970-3nlwxmzl.png",
+    "prompt": "retexture the image attached based on the JSON aesthetic below\n{\n  \"style\": \"hyperrealistic 3D render\",\n  \"material\": \"high-gloss translucent rubber with iridescent coating\",\n  \"surface_texture\": \"fine-grain pebbling with micro-specular highlights\",\n  \"lighting\": {\n    \"type\": \"studio HDRI\",\n    \"intensity\": \"high\",\n    \"direction\": \"multi-point with rim and backlight\",\n    \"colors\": [\"electric blue\", \"magenta\", \"neon purple\", \"sunset orange\"],\n    \"glow_effect\": true,\n    \"chromatic_aberration\": true,\n    \"bloom\": true\n  },\n  \"color_scheme\": {\n    \"primary\": \"iridescent gradient\",\n    \"highlights\": \"white light core reflections\",\n    \"accent_edges\": \"black outlines with subtle glow\"\n  },\n  \"background\": {\n    \"color\": \"solid black\",\n    \"texture\": \"none\",\n    \"contrast\": \"extreme to enhance subject glow\"\n  },\n  \"camera\": {\n    \"angle\": \"straight-on center view\",\n    \"focus\": \"sharp foreground, no depth blur\",\n    \"lens\": \"macro with light distortion\"\n  },\n  \"post_processing\": {\n    \"glow\": true,\n    \"contrast_boost\": true,\n    \"color_grading\": \"vibrant spectrum\",\n    \"noise\": \"minimal\"\n  }\n}",
+    "quality_score": null,
+    "status": "approved",
+    "title": "霓虹灯风格工具",
+    "tags": [
+      "minimalist",
+      "neon"
+    ],
+    "slug": "prompt-66",
+    "source_type": "crawled",
+    "source_url": "https://x.com/egeberkina/status/1926005869331849235",
+    "twitterText": "Tools of tension, styled in neon and built with GPT-4o + JSON\n\nPrompt 👇 https://t.co/GP0HfEJU6a"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-67/primary-0-1766860827261-je5bhy6n.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-67/preview-0-1766860828640-cpr9lt7g.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-67/primary-0-1766860827261-je5bhy6n.jpeg",
+    "prompt": "{\n    \"style\": \"miniature handcrafted diorama\",\n    \"material\": \"tree branches, cardboard, clay, moss, dried flowers, paper\",\n    \"surface_texture\": \"organic, rough and varied (wood grain, soft moss, paper texture)\",\n    \"lighting\": {\n        \"type\": \"soft ambient natural light\",\n        \"intensity\": \"low to moderate\",\n        \"direction\": \"diffused overhead\",\n        \"accent_colors\": [\n            \"forest green\",\n            \"earth brown\",\n            \"soft beige\",\n            \"muted pink\"\n        ],\n        \"reflections\": false,\n        \"refractions\": false,\n        \"dispersion_effects\": false,\n        \"bloom\": false\n    },\n    \"color_scheme\": {\n        \"primary\": \"natural greens and browns\",\n        \"secondary\": \"soft neutral tones (cardboard, clay, paper)\",\n        \"highlights\": \"light falling on the open book and cat’s glasses\",\n        \"rim_light\": \"subtle natural edge light from the forest opening\"\n    },\n    \"background\": {\n        \"color\": \"natural moss green\",\n        \"vignette\": false,\n        \"texture\": \"moss and dried floral structure\"\n    },\n    \"post_processing\": {\n        \"chromatic_aberration\": false,\n        \"glow\": false,\n        \"high_contrast\": false,\n        \"sharp_details\": true,\n        \"film_grain\": false\n    },\n    \"form_composition\": {\n        \"scene_elements\": [\n            \"a small girl sitting on a balcony holding an open miniature book\",\n            \"a cat with glasses observing the book's illustrations\",\n            \"a treehouse made from twigs, cardboard, and clay\",\n            \"balcony and surrounding forest made of moss and dried flowers\"\n        ],\n        \"scale\": \"miniature\",\n        \"theme\": \"childlike wonder and storytelling in a handcrafted world\",\n        \"visual_metaphor\": [\n            \"curiosity\",\n            \"quiet companionship\",\n            \"imagination in nature\"\n        ]\n    },\n    \"metadata\": {\n        \"artist\": \"-Zho-\",\n        \"series\": \"ZH4O\"\n    }\n}",
+    "quality_score": null,
+    "status": "approved",
+    "title": "可爱微缩场景",
+    "tags": [
+      "clay",
+      "illustration",
+      "landscape",
+      "nature",
+      "paper-craft",
+      "vehicle"
+    ],
+    "slug": "prompt-67",
+    "source_type": "crawled",
+    "source_url": "https://x.com/ZHO_ZHO_ZHO/status/1925878276133708224",
+    "twitterText": "GPT 4o + JSON = Miniature Diorama\n\n微缩场景太可爱了！\n\n小小世界｜ZH4O｜创意系列｜GPT 4o Creation\n\n【提示 / Prompt / JSON】⬇️ https://t.co/RFjGCWV5Gj"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-68/primary-0-1766860822334-tdv4l7ct.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-68/preview-0-1766860824705-mt4dw90e.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-68/primary-0-1766860822334-tdv4l7ct.png",
+    "prompt": "A giant [transparent or glossy,object/container] with a miniature 3D diorama inside it, depicting [a symbolic or narrative scene], studio-lit with soft shadows, placed on a neutral matte surface. Emphasize visual contrast between the scale of the capsule and the detail within. Highlight texture, light refraction, and emotional tone (e.g., surreal, poetic, or sci-fi).",
+    "quality_score": null,
+    "status": "approved",
+    "title": "透明容器里有一个微型的3D世界",
+    "tags": [
+      "futuristic",
+      "sci-fi"
+    ],
+    "slug": "prompt-68",
+    "source_type": "crawled",
+    "source_url": "https://x.com/KoppulaMahende9/status/1920442464810270851",
+    "twitterText": ""
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-69/primary-0-1766860817795-yu7pt7vx.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-69/preview-0-1766860819662-9gsduu8b.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-69/primary-0-1766860817795-yu7pt7vx.png",
+    "prompt": "A flat branded paper folds itself into the full 3D shape of a [insert product or item, e.g. “Coca-Cola bottle”, “Nike sneaker”, “Big Mac”], mid-motion. \n\nThe paper colors match the [insert brand name] brand’s signature palette and the natural colors of the item (e.g., [describe key colors or ingredients, like “red and white for Coca-Cola”, “brown, green, yellow for Big Mac”]).\n\nDramatic studio lighting, origami texture detail, soft gradient shadows. Stylized with Japanese minimalism and elegant negative space. The scene captures a clean, elevated transformation from flat brand identity into sculptural product form.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "品牌折叠纸",
+    "tags": [
+      "branding",
+      "minimalist",
+      "nature",
+      "paper-craft",
+      "product",
+      "sci-fi"
+    ],
+    "slug": "prompt-69",
+    "source_type": "crawled",
+    "source_url": "https://x.com/HBCoop_/status/1925600123200881024",
+    "twitterText": "GPT 4o \n\nPrompts in ALT - template and examples below: https://t.co/oN2COWdk9n"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-70/primary-0-1766860811760-msql1889.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-70/preview-0-1766860815172-4rzrq4wt.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-70/primary-0-1766860811760-msql1889.jpeg",
+    "prompt": "Design a luxury-themed 1:1 image featuring a rose gold sculpture that embodies the essence of the jewelry brand “[BRAND NAME]”. The object must symbolically reflect the brand’s identity (e.g., falcon for Cartier, ring for Tiffany & Co., palm tree for Swarovski, camel for Prada). Embed premium crystal textures into key parts of the sculpture (e.g., wings, gem, leaves, or hump) to match the brand’s signature elegance. Use the brand’s iconic background color (e.g., Tiffany Blue, Swarovski White, Cartier Beige, Prada Sand) and place the official logo beneath the sculpture. Add a bold two-word slogan that aligns with the brand’s tone. Lighting should be pure white with high Kelvin value to ensure clarity and prevent yellow tint. The result must feel editorial, artistic, and visually exquisite.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "重新构想的玫瑰金",
+    "tags": [
+      "branding",
+      "nature",
+      "sculpture",
+      "vehicle"
+    ],
+    "slug": "prompt-70",
+    "source_type": "crawled",
+    "source_url": "https://x.com/aziz4ai/status/1925933649267970074",
+    "twitterText": "GPT-4o PROMPT: Rosegold Reimagined \n\nA luxury showcase of rose gold and crystal, each sculpture echoing iconic brand DNA.\n\nNow lit in flawless high-Kelvin white, with zero yellow tint.\n\nEditorial. Exquisite. Elevated.\n\nThe prompt in the next comment ⬇️ https://t.co/Zkg284H5vb"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-71/primary-0-1766860805736-3itg6ur4.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-71/preview-0-1766860808699-2y8dhhht.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-71/primary-0-1766860805736-3itg6ur4.png",
+    "prompt": "Prompt: An image of a [TYPE] landscape, featuring a cave entrance that is shaped exactly like the outline of a [SHAPE]. The cave should blend naturally into the rugged terrain of the mountain, with the entrance forming a clear and unmistakable [SHAPE] shape. This [SHAPE] shape should be simple and defined, without intricate details, emphasizing just the overall [SHAPE] outline. The surrounding environment should include [DETAILS], but these elements should not distract from the cave's   [SHAPE]-shaped entrance. The lighting in the scene should enhance the visibility and distinctiveness of the [SHAPE]-shaped cave entrance.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "景观洞穴入口的形状",
+    "tags": [
+      "landscape"
+    ],
+    "slug": "prompt-71",
+    "source_type": "crawled",
+    "source_url": "https://x.com/umesh_ai/status/1925819339413836010",
+    "twitterText": "ChatGPT-4o can do this so well.\n\nPrompt ⤵️ https://t.co/ncOeUPw7bt"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-72/primary-0-1766860798586-0bghk3e0.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-72/preview-0-1766860800707-23933y9v.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-72/primary-0-1766860798586-0bghk3e0.png",
+    "prompt": "A surreal oil painting of a [subject], executed in the style of early 20th-century dreamscapes. Melting shapes, floating forms, and swirling [color1] and [color2] brushstrokes create a dreamlike dissonance.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "超现实主义油画",
+    "tags": [
+      "creative"
+    ],
+    "slug": "prompt-72",
+    "source_type": "crawled",
+    "source_url": "https://x.com/azed_ai/status/1926217150093549680",
+    "twitterText": "Prompt share: Surreal oil painting\n\n💬Prompt:\nA surreal oil painting of a [subject], executed in the style of early 20th-century dreamscapes. Melting shapes, floating forms, and swirling [color1] and [color2] brushstrokes create a dreamlike dissonance.\n\nCheck ATLs for inspiration https://t.co/0BGSJEYWjY"
+  },
+  {
+    "model": "ChatGpt",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-73/primary-0-1766860792504-jtg8wmzw.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-73/preview-0-1766860794641-ie279zx9.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-73/primary-0-1766860792504-jtg8wmzw.png",
+    "prompt": "A highly realistic 3D render of the letter [A-Z] designed as a full-body fluffy monster. The letter shape itself is the creature’s body — no separate head or limbs. The eyes, mouth, and other monster features are embedded naturally into the letter form. The monster expresses a [mischievous / grumpy / shy / joyful / sleepy / surprised / confident] emotion through its eyes and mouth shape. The texture is dense, soft, and realistic fur, with subtle volume and shadow. The color palette is bold but clean — solid vibrant tones like mint, lilac, sky blue, or coral (avoid rainbow gradients). Studio lighting on a simple pastel background. No hats, no party props — just a minimal, high-quality character design with playful expression.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "有趣的毛茸茸字母",
+    "tags": [
+      "animal",
+      "character",
+      "minimalist"
+    ],
+    "slug": "prompt-73",
+    "source_type": "crawled",
+    "source_url": "https://x.com/Anima_Labs/status/1925933980781535629",
+    "twitterText": "Fun furry alphabet letter with ChatGpt 4o 🔥👀\n\nPrompt 👇 https://t.co/l7LBGyRwi5"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-74/primary-0-1766860788137-6sr5t8q7.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-74/preview-0-1766860790046-kds1xpt5.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-74/primary-0-1766860788137-6sr5t8q7.png",
+    "prompt": "Tiny cute isometric [smiling - optional,OBJECT] emoji, shape, soft lighting, soft pastel colors, [COLOR], 3d icon clay render, blender 3d, pastel background",
+    "quality_score": null,
+    "status": "approved",
+    "title": "3D可爱粉彩粘土图标",
+    "tags": [
+      "3d",
+      "clay",
+      "emoji"
+    ],
+    "slug": "prompt-74",
+    "source_type": "crawled",
+    "source_url": "https://x.com/icreatelife/status/1926014358783430945",
+    "twitterText": "Weekend prompt - 3D Cute Pastel Clay Icons For Anything\n\nprompt: Tiny cute isometric [smiling - optional] [OBJECT] emoji, shape, soft lighting, soft pastel colors, [COLOR], 3d icon clay render, blender 3d, pastel background\n\nWould love to see your creations inspired by it. https://t.co/FQwLQI0uwl"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-75/primary-0-1766860779929-7k1dv3bi.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-75/preview-0-1766860782130-fdp6pkrz.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-75/preview-1-1766860785215-difww2a4.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-75/primary-0-1766860779929-7k1dv3bi.png",
+    "prompt": "Highly detailed 3D-rendered chibi figurine diorama of [Character A] and [Character B], captured in a [scene/action], inside a [thematic display case shape] with [material]. The background features [visual effects: debris, aura, lightning, scenery], dynamic pose. The title \"[custom phrase]\" is embossed at the top in [font/style], matching the tone. Lighting is [studio, cinematic, ambient], color palette of [main colors]. Designed in a collectible, stylized, viral-friendly aesthetic.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "可爱干净的底座立体模型",
+    "tags": [
+      "3d",
+      "character",
+      "toy"
+    ],
+    "slug": "prompt-75",
+    "source_type": "crawled",
+    "source_url": "https://x.com/CharaspowerAI/status/1925593447802540408",
+    "twitterText": "1⃣ Use GPT-4o image to generate a cute, clean base.\nThis prompt structure works for nearly any theme:\n\nHighly detailed 3D-rendered chibi figurine diorama of [Character A] and [Character B], captured in a [scene/action], inside a [thematic display case shape] with [material]. The https://t.co/uIuiDofT7y"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-76/primary-0-1766860775049-q58gkm3s.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-76/preview-0-1766860776744-lpzw0yha.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-76/primary-0-1766860775049-q58gkm3s.png",
+    "prompt": "Highly dramatic and epic black and white manga-style illustration of [Your character and description].  Powerful, dynamic pose, exaggerated features emphasizing the intensity of the scene. Background with explosive energy bursts, lightning effects, and a whirlwind of debris",
+    "quality_score": null,
+    "status": "approved",
+    "title": "黑白漫画风格插图",
+    "tags": [
+      "character",
+      "illustration"
+    ],
+    "slug": "prompt-76",
+    "source_type": "crawled",
+    "source_url": "https://x.com/CharaspowerAI/status/1923778050845528388",
+    "twitterText": "🚨PromptShare🚨\nIt’s wild how well 4o image handles black &amp; white manga-style illustrations 🖤📖\nClean lines, great shading — looks super authentic 👌\n\n🔽Prompt🔽 https://t.co/wCtfz0JBGj"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-77/primary-0-1766860770684-vm161v1a.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-77/preview-0-1766860772339-xplr3xt2.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-77/primary-0-1766860770684-vm161v1a.jpeg",
+    "prompt": "A 3D-rendered digital illustration featuring a retro-style food truck inspired by the brand [INSERT BRAND NAME], designed with smooth pastel colors and soft textures. A black-and-white cartoon character stands beside the truck, holding a product that visually represents the brand. The environment reflects the brand’s world—playful hills, trees, and skies stylized with its color palette and product shapes. The brand’s logo is clearly displayed on the truck, and a short slogan appears naturally within the scene. Format: 1:1, isometric view, cinematic lighting, clean and joyful composition.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "3D零食卡通世界",
+    "tags": [
+      "branding",
+      "cartoon",
+      "character",
+      "food",
+      "illustration",
+      "landscape",
+      "product",
+      "retro",
+      "vehicle"
+    ],
+    "slug": "prompt-77",
+    "source_type": "crawled",
+    "source_url": "https://x.com/aziz4ai/status/1925895453217898847",
+    "twitterText": "GPT-4o PROMPT: Snack Toon World\n\nA 3D pastel dream where your favorite brand becomes a cartoon adventure.\nJust add a name — and watch the magic unfold.\n\nThe prompt in the next comment ⬇️ https://t.co/BHkBzCLbib"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-78/primary-0-1766860764452-lk4rlpet.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-78/preview-0-1766860768259-ovw92e2e.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-78/primary-0-1766860764452-lk4rlpet.png",
+    "prompt": "Recreate this [insert emoji] using the parameters from the JSON provided.\n{\n  \"style\": \"Plushform Emoji\",\n  \"description\": \"Transform the emoji into a soft, realistic plush object with high-quality fabric and detailed construction. Do not anthropomorphize the emoji — avoid adding faces or cartoon features. Focus on accurate textures, natural forms, and subtle design to give the plush object character.\",\n  \"features\": {\n    \"shape\": \"matching the emoji's form, with soft, slightly rounded plush adaptation\",\n    \"texture\": \"realistic plush fabric with visible fiber detail and natural fabric folds\",\n    \"color\": \"faithful to the emoji's palette, using slightly muted, tactile tones\",\n    \"material\": \"stuffed toy fabric with visible stitching, seams, and high-quality finishing\",\n    \"background\": \"neutral or softly textured to emphasize the plush object's form\",\n    \"lighting\": \"soft professional studio lighting with subtle shadows and depth\"\n  },\n  \"examples\": [\n    \"👌 becomes a plush hand in the OK gesture, with realistic fabric folds and seams.\",\n    \"🎯 becomes a soft plush bullseye with layered fuzzy rings and slight dimensional padding.\",\n    \"🎁 becomes a cube-shaped plush box with fabric ribbon, visible stitching, and realistic fabric texture.\",\n    \"🌊 becomes a wave-shaped plush with curled foam tips, crafted in textured ocean blue fabrics.\"\n  ]\n}",
+    "quality_score": null,
+    "status": "approved",
+    "title": "毛绒形式表情符号",
+    "tags": [
+      "cartoon",
+      "character",
+      "emoji",
+      "toy",
+      "vehicle"
+    ],
+    "slug": "prompt-78",
+    "source_type": "crawled",
+    "source_url": "https://x.com/alban_gz/status/1925833589431619616",
+    "twitterText": "Plush Form Emoji with ChatGPT-4o + JSON!\n\nPrompt 👇 https://t.co/pAqLILZG9w"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-79/primary-0-1766860759895-pmhk3ynz.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-79/preview-0-1766860761411-n7fwvknv.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-79/primary-0-1766860759895-pmhk3ynz.jpeg",
+    "prompt": "create image with 1: 1 ratio  \nturn a vector [ type\n] icon with the following json style \n{\n    \"object\": \"icon\",\n    \"material\": {\n        \"primary_surface\": \"smooth matted translucent metallic\",\n        \"finish\": \"iridescent sheen\",\n        \"color_profile\": {\n            \"base_color\": \"deep blue\",\n            \"secondary_tones\": [\n                \"black\",\n                \"violet\",\n                \"copper-orange highlights\"\n            ]\n        },\n        \"panel_lines\": {\n            \"material\": \"metallic copper\",\n            \"visual_treatment\": \"glowing edge with subtle bevel\"\n        },\n    },\n    \"lighting\": {\n        \"type\": \"studio\",\n        \"key_light\": {\n            \"position\": \"top-left\",\n            \"effect\": \"smooth gradient highlight across the surface\"\n        },\n        \"rim_light\": {\n            \"position\": \"right side\",\n            \"effect\": \"sharp metallic edge glow\"\n        },\n        \"reflections\": {\n            \"character\": \"diffused but iridescent, hinting at a highly polished or lacquered surface\"\n        },\n        \"shadows\": \"soft edge, minimal ground contact due to floating presentation\"\n    },\n    \"background\": {\n        \"color\": \"#FFF\",\n        \"style\": \"solid matte\",\n    },\n    \"composition\": {\n        \"camera_angle\": \"centered, eye-level\",\n        \"depth_of_field\": \"none (sharp focus throughout)\",\n        \"presentation\": \"floating, isolated subject\"     \"angle\": \"isometric style\"\n    },\n    \"visual_style\": {\n        \"tone\": \"modern, high-impact\",\n        \"inspiration\": \"sports branding meets futuristic product design\",\n        \"aesthetic\": \"bold contrast, tech-luxury fusion\"\n    }\n}",
+    "quality_score": null,
+    "status": "approved",
+    "title": "Alloy图标",
+    "tags": [
+      "branding",
+      "character",
+      "futuristic",
+      "minimalist",
+      "product"
+    ],
+    "slug": "prompt-79",
+    "source_type": "crawled",
+    "source_url": "https://x.com/hc_dsn/status/1926095406871568670",
+    "twitterText": "⚪️Create Alloy icons like these with JSON.⚪️\n\nNo 3D software. \nNo rendering headaches.\nJust pure generative design thinking.\nI defined everything, material, lighting, edge glow, surface texture inside a JSON structure.\n\n✨Prompt in the Comment\n\n--------     \n      \n✨Made with https://t.co/VLHAJMMtHw"
+  },
+  {
+    "model": "ChatGPT",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-80/primary-0-1766860756610-qyjr223m.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-80/preview-0-1766860757689-dzlx8w6l.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-80/primary-0-1766860756610-qyjr223m.jpeg",
+    "prompt": "Create an image by arranging [NUMBER/AGGREGATE] of [FRUIT] strategically on a dark surface to form the shape of [OBJECT/EMOJI/LOGO]",
+    "quality_score": null,
+    "status": "approved",
+    "title": "水果的形状",
+    "tags": [
+      "emoji",
+      "logo"
+    ],
+    "slug": "prompt-80",
+    "source_type": "crawled",
+    "source_url": "https://x.com/umesh_ai/status/1926182194159972503",
+    "twitterText": "Shapes with fruits!\n\nA ChatGPT 4o prompt ⤵️ https://t.co/3fxteklozV"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-81/primary-0-1766860751699-20ass4nq.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-81/preview-0-1766860753796-c00cpsz9.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-81/primary-0-1766860751699-20ass4nq.png",
+    "prompt": "A highly stylized and vibrant promotional image of a [INSTRUMENT] designed in the visual style of the [BRAND] brand — the instrument is reimagined with iconic colors, patterns, and aesthetic elements of the brand. Set in a dynamic, music-inspired environment, with glowing accents, product-style lighting, and joyful energy. Artistic fusion of music and design. 3D render look, high detail, vibrant colors, futuristic but playful.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "品牌乐器",
+    "tags": [
+      "branding",
+      "futuristic",
+      "landscape",
+      "product"
+    ],
+    "slug": "prompt-81",
+    "source_type": "crawled",
+    "source_url": "https://x.com/TheRelianceAI/status/1926148686884606257",
+    "twitterText": "Good morning, dear friends😊\n\n“Instruments X Brands” by GPT-4o\n\nPrompt for inspiration in the ALT👇 https://t.co/fJPtBEZS17"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-82/primary-0-1766860744402-0rpruix5.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-82/preview-0-1766860747913-gpf09kyc.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-82/primary-0-1766860744402-0rpruix5.png",
+    "prompt": "A Neon Floral Harmony illustration of [SUBJECT], with flowers and plants outlined in glowing neon hues. Use vibrant [COLOR1] and [COLOR2] to create a serene yet electrifying botanical scene",
+    "quality_score": null,
+    "status": "approved",
+    "title": "霓虹花卉和谐插图",
+    "tags": [
+      "illustration",
+      "nature",
+      "neon"
+    ],
+    "slug": "prompt-82",
+    "source_type": "crawled",
+    "source_url": "https://x.com/LudovicCreator/status/1926246931661042132",
+    "twitterText": "🎨 NEON FLORAL HARMONY 🎨\n\nBase prompt :\n\nA Neon Floral Harmony illustration of [SUBJECT], with flowers and plants outlined in glowing neon hues. Use vibrant [COLOR1] and [COLOR2] to create a serene yet electrifying botanical scene\n\nCheck ALTS https://t.co/2HluWhBrLd"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [],
+    "result_image": null,
+    "prompt": "1、\"X-CODE\" in futuristic glitch style, with pixel breakups and neon overlays\n2、A glitch vector logo for a rogue AI named “OBLIVION.EXE”, with red error overlays and corrupted circuitry\n3、A circular emblem for “Station 404”, a hacked orbital base with broken planetary symbols and static flicker\n4、A surveillance eye logo, distorted with chromatic aberration, layered static, and flickering digital interference",
+    "quality_score": null,
+    "status": "approved",
+    "title": "Glitch 矢量徽标样式 (变体 2)",
+    "tags": [
+      "futuristic",
+      "neon",
+      "pixel",
+      "sci-fi",
+      "typography"
+    ],
+    "slug": "prompt-83-v2",
+    "source_type": "crawled",
+    "source_url": "https://x.com/Artedeingenio/status/1925844468294365289",
+    "twitterText": "🔥 New mind-blowing style for ChatGPT-4o:\n\nGlitch Vector Logo Style\n\nA bold, high-impact design aesthetic that mimics visual corruption — perfect for cyberpunk, sci-fi, hacker themes, and dystopian branding.\n\n🎨 Prompt Base:\n\nA bold vector logo design in glitch art style, https://t.co/NP0fSux9gY"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-83/primary-0-1766860735680-290vgeu2.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-83/preview-0-1766860738505-q5gwt7a6.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-83/primary-0-1766860735680-290vgeu2.png",
+    "prompt": "A bold vector logo design in glitch art style, featuring distorted typography with RGB color channel shifts, fragmented lines, misaligned edges, digital noise effects, and a cyberpunk aesthetic. The logo appears corrupted or hacked, as if captured from a malfunctioning screen. Use a black or dark background for contrast, neon or high-saturation color palette, and sharp angular forms.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "Glitch 矢量徽标样式",
+    "tags": [
+      "futuristic",
+      "neon",
+      "pixel",
+      "sci-fi",
+      "typography"
+    ],
+    "slug": "prompt-83",
+    "source_type": "crawled",
+    "source_url": "https://x.com/Artedeingenio/status/1925844468294365289",
+    "twitterText": "🔥 New mind-blowing style for ChatGPT-4o:\n\nGlitch Vector Logo Style\n\nA bold, high-impact design aesthetic that mimics visual corruption — perfect for cyberpunk, sci-fi, hacker themes, and dystopian branding.\n\n🎨 Prompt Base:\n\nA bold vector logo design in glitch art style, https://t.co/NP0fSux9gY"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-84/primary-0-1766860730041-9m6lkxso.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-84/preview-0-1766860730915-kook17z7.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-84/preview-1-1766860732404-ljor3szf.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-84/primary-0-1766860730041-9m6lkxso.jpeg",
+    "prompt": "Retexture this image in the following JSON style aesthetic:\n{\n  \"styleAesthetic\": {\n    \"title\": \"Isometric Multicolor Extrusion with Grid Control\",\n    \"overallVibe\": \"Playful modern 3D iconography with directional extrusion and dynamic isometric grids\",\n    \"viewAngle\": {\n      \"type\": \"Isometric\",\n      \"facingDirection\": \"right\",  // options: left, right, front\n      \"rotationDegrees\": {\n        \"x\": 30,\n        \"y\": 30\n      }\n    },\n    \"renderingStyle\": \"Clean 3D extruded vector with soft lighting and high contrast between faces\",\n    \"objectSurface\": {\n      \"frontFace\": {\n        \"color\": \"#ffffff\",\n        \"material\": \"Matte white plastic\",\n        \"lighting\": \"Soft diffuse\"\n      },\n      \"extrudedSide\": {\n        \"type\": \"Multicolor gradient\",\n        \"gradientStyle\": \"Diagonal sweep\",\n        \"colorStops\": [\n          \"#ff0040\", \"#ff8000\", \"#ffff00\", \"#00ff90\", \"#00cfff\", \"#8000ff\"\n        ],\n        \"material\": \"Glossy plastic\",\n        \"lighting\": \"Ambient with light falloff\"\n      }\n    },\n    \"extrusion\": {\n      \"direction\": \"right\",  // determines which side is extruded: left, right, front\n      \"depth\": \"moderate\"\n    },\n    \"shadows\": {\n      \"type\": \"Drop shadow\",\n      \"direction\": \"bottom-right\",\n      \"opacity\": 0.15,\n      \"blurRadius\": \"6px\"\n    },\n    \"background\": {\n      \"type\": \"Isometric grid\",\n      \"color\": \"#ffffff\",\n      \"gridStyle\": {\n        \"lineColor\": \"#e0e0e0\",\n        \"lineWeight\": \"1px\",\n        \"orientation\": \"opposite-extrusion\"  // automatically flips grid lines to oppose the extrusion direction\n      }\n    },\n    \"moodKeywords\": [\n      \"Dimensional\",\n      \"Clean\",\n      \"Geometric\",\n      \"Colorful\",\n      \"Tactile\",\n      \"Structured\"\n    ]\n  }\n}",
+    "quality_score": null,
+    "status": "approved",
+    "title": "渐变挤出Google I/O 2025大会视觉效果",
+    "tags": [
+      "creative"
+    ],
+    "slug": "prompt-84",
+    "source_type": "crawled",
+    "source_url": "https://x.com/hckmstrrahul/status/1925567579856453701",
+    "twitterText": "Gradient Extrude – Google I/O 2025 Visuals \nPrompt below 👇 https://t.co/NveAAV1tSa"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-85/primary-0-1766860726218-umz3lggu.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-85/preview-0-1766860727960-cq8xu1ty.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-85/primary-0-1766860726218-umz3lggu.jpeg",
+    "prompt": "# 任务目标\n请生成一张基于中国古代知名戏曲片段的MBTI人格类型卡片图片，使戏曲场景扁平插画的情感内涵与MBTI人格特质相对应。，我需要生成的人各类型是[INTP]\n\n## 内容要求\n1. **场景选取**：从中国古代知名戏曲片段中提取能体现不同MBTI人格特质的代表性场景\n2. **场景意境**：画面需表现完整戏剧场景，通过场景氛围体现对应的人格特质\n3. **服饰真实性**：画面中人物必须穿着对应戏曲的正确戏服\n4. **人格对应**：每个场景需精准对应一种MBTI人格类型的核心特质\n\n## 卡片排版设计\n参考图片样式：\n- **顶部**：MBTI类型代码（如INFJ）\n- **中部**：渐变色彩的抽象几何图形作为主视觉\n- **底部**：\n- 中文人格类型名称（如\"提倡者\"）\n- 英文标语：（如\"The world is your oyster\"）\n- 装饰性边框和星形符号\n\n## 视觉风格\n- 采用现代极简设计语言\n- 渐变色彩与几何形状结合\n- 保持神秘感与艺术性\n- 整体色调柔和梦幻\n\n## 技术规格\n- 卡片尺寸采用标准比例\n- 每张卡片需清晰标注MBTI类型代码\n- 保持系列视觉一致性",
+    "quality_score": null,
+    "status": "approved",
+    "title": "知名戏曲片段的MBTI人格类型卡片",
+    "tags": [
+      "illustration",
+      "landscape",
+      "minimalist",
+      "portrait",
+      "typography"
+    ],
+    "slug": "prompt-85",
+    "source_type": "crawled",
+    "source_url": "https://x.com/op7418/status/1925869690120794320",
+    "twitterText": "如果你要用 4o 生成的话用这个提示词：\n\n# 任务目标\n请生成一张基于中国古代知名戏曲片段的MBTI人格类型卡片图片，使戏曲场景扁平插画的情感内涵与MBTI人格特质相对应。，我需要生成的人各类型是[INTP]\n\n## 内容要求\n1. **场景选取**：从中国古代知名戏曲片段中提取能体现不同MBTI人格特质的代表性场景"
+  },
+  {
+    "model": "ChatGPT",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-86/primary-0-1766860721744-vqhhbicy.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-86/preview-0-1766860723511-ihaf8pd5.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-86/primary-0-1766860721744-vqhhbicy.png",
+    "prompt": "Create image with 1:1 ratio A next-gen wearable ai [device type] blending Jony Ive–inspired refined minimalism with a new material and interaction language symbolizing the power ChatGPT. The device is crafted from translucent aerogel fused with polished ceramic titanium, feather-light yet futuristic.  No seams, buttons, or traditional UI. Photographed floating against a pure white background, with a soft, diffused, nearly shadowless studio light.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "未来的OpenAI可穿戴设备",
+    "tags": [
+      "futuristic",
+      "minimalist",
+      "photography",
+      "ui"
+    ],
+    "slug": "prompt-86",
+    "source_type": "crawled",
+    "source_url": "https://x.com/hc_dsn/status/1925589916844794154",
+    "twitterText": "⚪️Jony Ive x OpenAI Wearable?⚪️\n\nThis Is What the Future Looks Like?\nWhat happens when the mind behind the iPhone meets the brain of ChatGPT?\n\nA collection of intelligent objects\nnot worn, but lived with.\n\nNew material combo maybe?\nTranslucent aerogel. Ceramic titanium.\nNo https://t.co/klXEwHdvLK"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-87/primary-0-1766860716545-t6gfnqk2.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-87/preview-0-1766860718308-q732zivk.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-87/primary-0-1766860716545-t6gfnqk2.png",
+    "prompt": "A realistic, cinematic photograph of a vintage [BRAND NAME] item being gently lifted from a dusty stack of old children's books in a dimly lit attic. The item is designed in classic [BRAND NAME] style—featuring authentic patterns, textures, or logos (e.g. monograms, embossing, or signature motifs relevant to the brand). It is partially opened to reveal a miniature, warmly lit classroom inspired by [COUNTRY] school interiors, complete with small regional-style desks, a chalkboard with delicate handwriting in [LANGUAGE], and traditional local details like shoes, posters, or flags. A paper airplane hovers mid-air. The lighting is moody and nostalgic, with soft shadows and golden highlights suggesting afternoon light filtering through attic beams. On the top book cover at the bottom of the image, the [BRAND NAME] logo is written in an elegant, fountain-pen calligraphy style—subtle, integrated into the scene, and not obscuring the main subject.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "品牌解锁童年回忆",
+    "tags": [
+      "branding",
+      "interior",
+      "nature",
+      "paper-craft",
+      "photography",
+      "poster",
+      "retro"
+    ],
+    "slug": "prompt-87",
+    "source_type": "crawled",
+    "source_url": "https://x.com/TheRelianceAI/status/1925606107608715268",
+    "twitterText": "Unlock childhood memories with brands by GPT-4o🎓\n\nPrompt in the ALT👇 https://t.co/leIuPZynao"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-88/primary-0-1766860708707-gf4i62c0.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-88/preview-0-1766860710508-3qrae0ep.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-88/preview-1-1766860712507-7qgnpfvz.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-88/primary-0-1766860708707-gf4i62c0.png",
+    "prompt": "A highly detailed 3D isometric icon of the following object: [OBJECT]\n\nStyle: Airbnb 2024 icon language — miniature diorama / emoji-like object with crisp edges, realistic textures, and soft handcrafted realism.  \n\nMaterial: The object should clearly retains its fundamental qualities but look as if its made from a mixture of matte and plastic-like materials.  \n\nView: three-quarter front-left isometric view with a slight top-down angle.  \n\nLighting: soft neutral studio lighting from the top-left with subtle shadows and gentle gloss highlights.  \n\nColor palette: retain the fundamental colors from the object and include subtle gradients and no harsh contrasts.  \n\nBackground: clean white, no drop shadow or noise.  \n\nMood: minimal, charming, utilitarian, premium.  \n\nRendering: hyper-detailed, photorealistic object with depth and tactility, like a designer lifestyle emoji or miniature product model. \n\nOptional Add-on for Replication:  Use the attached photo as a reference for proportions and layout. Do not copy exactly — reinterpret it in the Airbnb icon aesthetic.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "AirBnB 任何东西",
+    "tags": [
+      "emoji",
+      "minimalist",
+      "photography",
+      "product"
+    ],
+    "slug": "prompt-88",
+    "source_type": "crawled",
+    "source_url": "https://x.com/R2_fieldworks/status/1924433924106727531",
+    "twitterText": "AirBnB Anything!\n\nI made some slight modifications to @mrblackstudio prompt so you can turn anything into an AirBnB icon.\n\nPrompt:\nA highly detailed 3D isometric icon of the following object: [OBJECT]\n\nStyle: Airbnb 2024 icon language — miniature diorama / emoji-like object with https://t.co/XOWei5uxlY"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-89/primary-0-1766860704117-ksnsdlyw.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-89/preview-0-1766860706019-dsmjhiqq.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-89/primary-0-1766860704117-ksnsdlyw.jpeg",
+    "prompt": "Three different fantasy sailboats in the ocean, multiple scenes of beautiful aurora borealis and colorful moons with snowy mountains, a dreamy, fantasy landscape, in the style of digital art.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "海洋中三艘不同的奇幻帆船",
+    "tags": [
+      "fantasy",
+      "landscape"
+    ],
+    "slug": "prompt-89",
+    "source_type": "crawled",
+    "source_url": "https://x.com/BeanieBlossom/status/1925159751169810806",
+    "twitterText": "Prompt: Three different fantasy sailboats in the ocean, multiple scenes of beautiful aurora borealis and colorful moons with snowy mountains, a dreamy, fantasy landscape, in the style of digital art.\n\nMight not be that stable, but even it if does not create 3 panels it makes https://t.co/qA82UBgw2B"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-90/primary-0-1766860700170-kyl3ai6c.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-90/preview-0-1766860701859-7euzzdod.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-90/primary-0-1766860700170-kyl3ai6c.jpeg",
+    "prompt": "Retexture [BRAND NAME] logo following my JSON aesthetic below:\n{\n\"style\": \"realistic needle-felted wool sculpture\",\n\"subject_handling\": {\n\"adapt_to_uploaded_image\": true,\n\"preserve_original_shape_and_layout\": true,\n\"preserve_uploaded_color_values\": true,\n\"preserve_text_if_present\": true,\n\"preserve_text_case\": true,\n\"preserve_exact_letterforms\": true,\n\"use_uploaded_image_as_pixel_map\": true,\n\"prevent_color_estimation_or_stylization\": true\n},\n\"needle_felting\": {\n\"material_type\": \"dyed wool fibers matched precisely to uploaded image pixels\",\n\"texture_description\": \"fluffy soft felt with clear fiber strands\",\n\"construction_style\": \"needle-felted, light irregularities allowed but no color bleeding\",\n\"color_application_method\": \"direct color transfer from uploaded image to wool sculpture\",\n\"prevent_auto_saturation_adjustment\": true,\n\"prevent_color_fading\": true,\n\"color_binding_mode\": \"pixel-level color fidelity per original image\"\n},\n\"lighting\": {\n\"lighting_type\": \"neutral soft studio lighting\",\n\"shadow\": \"soft, gray-toned shadows under the object only\",\n\"highlight_behavior\": \"matte highlights only from felt surface — no bloom or color shift\"\n},\n\"background\": {\n\"type\": \"plain matte studio\",\n\"background_color\": \"pastel tone that contrasts with logo color\",\n\"color_conflict_handling\": \"auto-adjust background brightness — do not alter logo colors\"\n},\n\"camera\": {\n\"focus_style\": \"macro lens\",\n\"depth_of_field\": \"shallow — full subject in sharp detail, soft background\",\n\"angle\": \"frontal or slightly elevated, full subject visible\"\n},\n\"post_processing\": {\n\"color_preservation_enforced\": true,\n\"disable_auto-enhancement_or_tinting\": true,\n\"no artistic reinterpretation\": true,\n\"no auto-correction, bloom, or white balance adjustments\": true\n},\n\"image_constraints\": {\n\"transparent_background\": false,\n\"aspect_ratio_locked\": true,\n\"include_text_if_present\": true,\n\"preserve_text_case\": true,\n\"preserve_uploaded_color_values\": true,\n\"prevent_shape_or_color_change\": true,\n\"enforce_exact_pixel_color_match_to_uploaded_image\": true\n},\n\"notes\": \"The uploaded image must be converted into a needle-felted wool sculpture using its exact colors and shape. Use pixel-level mapping to apply the uploaded color values to simulated dyed wool fibers. Do not change, brighten, dull, average, or blend colors. Text must remain intact and readable. Background should be soft pastel to contrast the logo — never adjust the logo to fit the scene.\"\n}",
+    "quality_score": null,
+    "status": "approved",
+    "title": "将您的标志变成毛毡纹理",
+    "tags": [
+      "branding",
+      "felt",
+      "logo",
+      "pixel",
+      "sculpture"
+    ],
+    "slug": "prompt-90",
+    "source_type": "crawled",
+    "source_url": "https://x.com/alex_prompter/status/1925460683509899423",
+    "twitterText": "Turn your logos into felt texture!\n\nPrompt 👇 https://t.co/EAE1QjRpSs"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-91/primary-0-1766860695748-s0jstaza.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-91/preview-0-1766860697426-537acrqv.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-91/primary-0-1766860695748-s0jstaza.png",
+    "prompt": "A kinetic sculpture of a [subject], made of interlocking metal rods and panels in brushed [color1] and oxidized [color2]. Suspended in motion, with rotating parts casting mechanical shadows on a concrete pedestal.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "动感雕塑",
+    "tags": [
+      "sculpture"
+    ],
+    "slug": "prompt-91",
+    "source_type": "crawled",
+    "source_url": "https://x.com/azed_ai/status/1925490847564669153",
+    "twitterText": "Prompt share: Kinetic sculpture\n\n💬Prompt:\nA kinetic sculpture of a [subject], made of interlocking metal rods and panels in brushed [color1] and oxidized [color2]. Suspended in motion, with rotating parts casting mechanical shadows on a concrete pedestal.\n\nCheck ATLs for https://t.co/3dGjF45P4b"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-92/primary-0-1766860691996-0lw24lx5.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-92/preview-0-1766860692987-76ay6ctv.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-92/primary-0-1766860691996-0lw24lx5.jpeg",
+    "prompt": "Recreate this image using the parameters from the JSON provided.\n{\n  \"name\": \"Neon Glass Glow\",\n  \"style\": {\n    \"material\": {\n      \"type\": \"glass\",\n      \"transparency\": 0.92,\n      \"reflectivity\": 1.0,\n      \"refractionIndex\": 1.6,\n      \"color\": \"#ff00ff\",\n      \"emission\": {\n        \"color\": \"#ff66ff\",\n        \"intensity\": 0.8\n      },\n      \"surfaceFinish\": \"glossy\",\n      \"bloom\": true,\n      \"detail\": \"high\"\n    },\n    \"outline\": {\n      \"enabled\": true,\n      \"color\": \"#ffccff\",\n      \"width\": 1.8\n    },\n    \"lighting\": {\n      \"type\": \"studio\",\n      \"keyLightColor\": \"#ffffff\",\n      \"keyLightIntensity\": 1.0,\n      \"fillLightColor\": \"#9900ff\",\n      \"fillLightIntensity\": 0.7,\n      \"rimLightColor\": \"#00ffff\",\n      \"rimLightIntensity\": 0.7,\n      \"shadows\": \"crisp\"\n    },\n    \"background\": {\n      \"type\": \"solid\",\n      \"color\": \"#000000\"\n    },\n    \"render\": {\n      \"shadows\": true,\n      \"antiAliasing\": true,\n      \"superSampling\": \"4x\",\n      \"resolution\": \"high\",\n      \"depthOfField\": {\n        \"enabled\": true,\n        \"focusDistance\": 0.8,\n        \"blurAmount\": 0.1\n      }\n    }\n  }\n}",
+    "quality_score": null,
+    "status": "approved",
+    "title": "霓虹玻璃发光",
+    "tags": [
+      "neon"
+    ],
+    "slug": "prompt-92",
+    "source_type": "crawled",
+    "source_url": "https://x.com/alban_gz/status/1925446996468371893",
+    "twitterText": "Neon Glass Glow with ChatGPT-4o + JSON!\n\nPrompt 👇 https://t.co/oOYu6A6eOh"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-93/primary-0-1766860688651-5xpiu3hl.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-93/preview-0-1766860689866-17osm4cg.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-93/primary-0-1766860688651-5xpiu3hl.jpeg",
+    "prompt": "A [SUBJECT] sits alone in a minimalistic room filled with floating, semi-transparent thought bubbles. Each bubble contains a fragment of their face from different emotional states — smiling, crying, screaming — forming a psychological self-portrait suspended in mid-air.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "不同情绪状态的思想泡泡",
+    "tags": [
+      "interior",
+      "minimalist",
+      "portrait"
+    ],
+    "slug": "prompt-93",
+    "source_type": "crawled",
+    "source_url": "https://x.com/TheRelianceAI/status/1925098220398465145",
+    "twitterText": "Good morning, guys!\n\nInner Reflections by GPT-4o\nPrompt ⬇️ https://t.co/MLqJiVY1kw"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-94/primary-0-1766860684504-ju1y8mwo.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-94/preview-0-1766860686390-wg8m0off.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-94/primary-0-1766860684504-ju1y8mwo.jpeg",
+    "prompt": "A square-format digital photograph showing a fictional pharmaceutical-style product from [Brand Name] Pharmacy. The box is on the left, clean and minimalist, featuring bold text with the product name \"[PRODUCT NAME]\" and a witty line like \"Take one [type] daily.\" Next to the box is a silver blister pack containing 6–10 themed pills or capsules shaped like [describe icon/logo/item, e.g., a coffee cup, burger, heart, Midjourney logo, etc.]. Neutral background, soft lighting, sharp focus, modern packaging aesthetic.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "制药风格商品",
+    "tags": [
+      "branding",
+      "minimalist",
+      "photography",
+      "product"
+    ],
+    "slug": "prompt-94",
+    "source_type": "crawled",
+    "source_url": "https://x.com/azed_ai/status/1925197464099049735",
+    "twitterText": "Tell us what are you addicted in a beautiful visual way, use this prompt 👇\n\nGreat idea by @KSA_AGI https://t.co/UMMUyYacEb"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [],
+    "result_image": null,
+    "prompt": "A flat branded paper folds itself into the full 3D shape of a [Jansport backpack], mid-motion. Dramatic studio lighting, origami texture detail, gradient shadows, Japanese minimalism feel.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "品牌平面纸风格 (变体 2)",
+    "tags": [
+      "branding",
+      "minimalist",
+      "paper-craft"
+    ],
+    "slug": "prompt-95-v2",
+    "source_type": "crawled",
+    "source_url": "https://x.com/HBCoop_/status/1925213900192043236",
+    "twitterText": "GPT 4o image\n\nPrompts in ALT https://t.co/61gfLfiOxB"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-95/primary-0-1766860678658-bk9r6qqy.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-95/preview-0-1766860680367-p0qcfu73.png"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-95/primary-0-1766860678658-bk9r6qqy.png",
+    "prompt": "A flat branded paper folds itself into the full 3D shape of a [Air Jordan 1 shoes], mid-motion. Dramatic studio lighting, origami texture detail, gradient shadows, Japanese minimalism feel.",
+    "quality_score": null,
+    "status": "approved",
+    "title": "品牌平面纸风格",
+    "tags": [
+      "branding",
+      "minimalist",
+      "paper-craft"
+    ],
+    "slug": "prompt-95",
+    "source_type": "crawled",
+    "source_url": "https://x.com/HBCoop_/status/1925213900192043236",
+    "twitterText": "GPT 4o image\n\nPrompts in ALT https://t.co/61gfLfiOxB"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-96/primary-0-1766860673974-6ai8uyth.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-96/preview-0-1766860675310-xwkcd15x.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-96/primary-0-1766860673974-6ai8uyth.jpeg",
+    "prompt": "3D sculpted logo of [LOGO NAME], in a steampunk style, made of aged brass and oxidized iron, with visible rivets, gears, and vintage mechanical elements, distressed and weathered surface, rich copper and bronze tones, engraved with Victorian-style filigree, retro-industrial design, soft spotlight lighting, neutral background, hyper-realistic render, ultra-high resolution, symmetrical composition",
+    "quality_score": null,
+    "status": "approved",
+    "title": "3D蒸汽朋克Logo",
+    "tags": [
+      "logo",
+      "retro"
+    ],
+    "slug": "prompt-96",
+    "source_type": "crawled",
+    "source_url": "https://x.com/MayorKingAI/status/1925144570553327620",
+    "twitterText": "⚙️Create 3D Steampunk Logos with ChatGPT-4o\n\nLet your imagination ignite — design 3D steampunk logos with gears, brass and rust, and drop your creations in the comments 👇 https://t.co/n7ncxLljHu"
+  },
+  {
+    "model": "nano banana",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-97/primary-0-1766860638641-gumob6rz.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-97/preview-0-1766860663510-0u0l4iac.png",
+      "https://cdn.pixshop.app/prompt-library/prompt-97/preview-1-1766860671210-zt6v5mu0.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-97/primary-0-1766860638641-gumob6rz.png",
+    "prompt": "Retro CRT computer boot screen that resolves into ASCII-art of NYC's tallest building",
+    "quality_score": null,
+    "status": "approved",
+    "title": "复古电脑开机画面解析为ASCII艺术",
+    "tags": [
+      "architecture",
+      "retro"
+    ],
+    "slug": "prompt-97",
+    "source_type": "crawled",
+    "source_url": "https://x.com/Gdgtify/status/1925176250626159053",
+    "twitterText": "GPT 4o prompt share: Retro CRT computer boot screen that resolves into ASCII-art of [shape or logo]\n\n Brings back memories .... kind of. 😅 https://t.co/OdHpLLoe5i"
+  },
+  {
+    "model": "GPT-4",
+    "category": null,
+    "preview_images": [
+      "https://cdn.pixshop.app/prompt-library/prompt-98/primary-0-1766860630789-ifnhhf79.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-98/preview-0-1766860632222-tpub3okb.jpeg",
+      "https://cdn.pixshop.app/prompt-library/prompt-98/preview-1-1766860633369-avhdnws1.jpeg"
+    ],
+    "result_image": "https://cdn.pixshop.app/prompt-library/prompt-98/primary-0-1766860630789-ifnhhf79.jpeg",
+    "prompt": "a soft 3D cartoon-style sculpture of [brand product], made of smooth clay-like textures and vibrant pastel colors, placed in a minimalist isometric scene that complements the product’s nature, clean composition, gentle lighting, subtle shadows, with the product’s logo and a 3-word slogan displayed clearly belo",
+    "quality_score": null,
+    "status": "approved",
+    "title": "3D卡通雕塑风格",
+    "tags": [
+      "branding",
+      "cartoon",
+      "clay",
+      "minimalist",
+      "nature",
+      "product",
+      "sculpture",
+      "vehicle"
+    ],
+    "slug": "prompt-98",
+    "source_type": "crawled",
+    "source_url": "https://x.com/aziz4ai/status/1925301120252924356",
+    "twitterText": "GPT-4o PROMPT: Pastel Power 3D ADS\n\nWhat if your brand felt soft, playful, and iconic?\nClay-textured 3D sculptures in pastel minimal scenes—each product reimagined as a collectible.\nLet’s bring this vibe to your brand next.\n\nThe prompt in the next comment ⬇️ https://t.co/GMBfkVNFSt"
+  }
+]
