@@ -137,7 +137,13 @@ export function PromptDetailPage({ locale, slug }: PromptDetailPageProps) {
           </div>
         </div>
 
-        <div className="mt-6 grid gap-10 lg:grid-cols-[1.1fr_0.9fr]">
+        <div className="mt-6">
+          <h1 className="text-4xl font-semibold leading-tight text-foreground sm:text-5xl">
+            {title}
+          </h1>
+        </div>
+
+        <div className="mt-8 grid gap-10 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="min-w-0 space-y-8">
             <div className="glass-panel rounded-2xl p-5">
               <p className="text-xs uppercase tracking-[0.3em] text-primary/70">
@@ -184,10 +190,26 @@ export function PromptDetailPage({ locale, slug }: PromptDetailPageProps) {
               </div>
             </div>
 
+            <div className="flex flex-wrap gap-3 text-xs uppercase tracking-[0.2em] text-muted-foreground">
+              <span className="rounded-full border border-white/10 bg-black/40 px-4 py-2">
+                {dict.common.model}: {prompt.model_type.replace(/-/g, " ")}
+              </span>
+              {category && (
+                <span className="rounded-full border border-white/10 bg-black/40 px-4 py-2">
+                  {dict.common.category}: {categoryLabel}
+                </span>
+              )}
+              {tagList.map((tag) => (
+                <span
+                  key={tag}
+                  className="rounded-full border border-white/10 bg-black/40 px-4 py-2"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+
             <div>
-              <h1 className="text-4xl font-semibold leading-tight text-foreground sm:text-5xl">
-                {title}
-              </h1>
               <p className="mt-4 text-lg text-muted-foreground">
                 {description}
               </p>
@@ -215,24 +237,6 @@ export function PromptDetailPage({ locale, slug }: PromptDetailPageProps) {
                 <span>
                   {copyCount} {dict.prompt.copiesLabel}
                 </span>
-              </div>
-              <div className="mt-6 flex flex-wrap gap-3 text-xs uppercase tracking-[0.2em] text-muted-foreground">
-                <span className="rounded-full border border-white/10 bg-black/40 px-4 py-2">
-                  {dict.common.model}: {prompt.model_type.replace(/-/g, " ")}
-                </span>
-                {category && (
-                  <span className="rounded-full border border-white/10 bg-black/40 px-4 py-2">
-                    {dict.common.category}: {categoryLabel}
-                  </span>
-                )}
-                {tagList.map((tag) => (
-                  <span
-                    key={tag}
-                    className="rounded-full border border-white/10 bg-black/40 px-4 py-2"
-                  >
-                    {tag}
-                  </span>
-                ))}
               </div>
             </div>
           </div>
