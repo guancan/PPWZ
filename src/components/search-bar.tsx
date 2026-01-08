@@ -41,7 +41,7 @@ export function SearchBar({
                     onFocus={() => setIsFocused(true)}
                     onBlur={() => setIsFocused(false)}
                     placeholder={placeholder}
-                    className="w-full py-4 pl-14 pr-6 bg-transparent text-foreground placeholder:text-muted-foreground outline-none text-lg"
+                    className="w-full py-4 pl-14 pr-6 bg-transparent text-foreground placeholder:text-muted-foreground/60 outline-none text-lg"
                 />
                 {query && (
                     <button

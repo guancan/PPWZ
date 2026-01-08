@@ -56,7 +56,7 @@ export function HeroVideo({ src, className }: HeroVideoProps) {
   return (
     <div
       className={cn(
-        "hero-video-align pointer-events-none absolute top-1/2 z-[5] -translate-y-1/2 origin-right scale-[0.75] translate-x-[20px] -mt-[20px]",
+        "hero-video-align pointer-events-none absolute top-1/2 z-[5] -translate-y-1/2 origin-right scale-[0.75] translate-x-[20px] -mt-[60px]",
         "transition-opacity duration-700",
         visible ? "opacity-100" : "opacity-0",
         className

@@ -150,8 +150,7 @@ const dictionaries: Record<Locale, Dictionary> = {
       ],
     },
     search: {
-      placeholder:
-        "Search prompts... (e.g., 'cyberpunk portrait', 'logo design')",
+      placeholder: "Search prompts",
       button: "Search",
     },
     card: {
@@ -244,7 +243,7 @@ const dictionaries: Record<Locale, Dictionary> = {
       ],
     },
     search: {
-      placeholder: "搜索提示词...（例如 '赛博朋克人像'、'logo 设计'）",
+      placeholder: "搜索提示词",
       button: "搜索",
     },
     card: {

@@ -59,8 +59,18 @@ export function HomePage({ locale }: HomePageProps) {
                 <span className="block font-medium">{dict.home.hero.line1}</span>
                 <span className="block font-medium">{dict.home.hero.line2}</span>
               </h1>
-              <p className="mt-4 text-lg text-muted-foreground">
-                {dict.home.subhead}
+              <p className="mt-4 text-base text-muted-foreground">
+                <span className="font-semibold text-foreground">
+                  8k+ Curated prompts
+                </span>{" "}
+                <span className="text-white/30">·</span>{" "}
+                <span className="font-semibold text-foreground">
+                  240+ Active creators
+                </span>{" "}
+                <span className="text-white/30">·</span>{" "}
+                <span className="font-semibold text-foreground">
+                  150+ Weekly drops
+                </span>
               </p>
               <div className="mt-10">
                 <SearchBar
@@ -81,24 +91,28 @@ export function HomePage({ locale }: HomePageProps) {
               </div>
             </div>
 
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {[
-                { label: dict.home.stats.curated, value: "8k+" },
-                { label: dict.home.stats.creators, value: "240+" },
-                { label: dict.home.stats.weekly, value: "150+" },
-              ].map((stat) => (
-                <div
-                  key={stat.label}
-                  className="glass-panel rounded-2xl px-6 py-5"
-                >
-                  <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">
-                    {stat.label}
-                  </p>
-                  <p className="mt-3 text-3xl font-semibold text-foreground">
-                    {stat.value}
-                  </p>
-                </div>
-              ))}
+            <div>
+              <p className="text-xs uppercase tracking-[0.3em] text-primary/70">
+                {dict.home.trendingLabel}
+              </p>
+              <div className="mt-6 grid gap-6 md:grid-cols-3">
+                {dict.home.trendingTopics.map((topic) => (
+                  <Link
+                    key={topic.slug}
+                    href={withLocalePath(locale, `/topic/${topic.slug}`)}
+                    className="group"
+                  >
+                    <div className="rounded-2xl border border-white/5 bg-black/30 px-5 py-4 transition hover:border-primary/40 hover:bg-white/5">
+                      <h3 className="text-xl font-semibold text-foreground">
+                        {topic.title}
+                      </h3>
+                      <p className="mt-3 text-sm text-muted-foreground">
+                        {topic.description}
+                      </p>
+                    </div>
+                  </Link>
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -129,51 +143,19 @@ export function HomePage({ locale }: HomePageProps) {
               href={withLocalePath(locale, `/${category.slug}`)}
               className="group"
             >
-              <div className="glass-panel h-full rounded-2xl p-6 transition hover:border-primary/40">
+              <div className="glass-panel h-full rounded-2xl p-5 transition hover:border-primary/40 hover:bg-white/5">
                 <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">
                   {dict.common.category}
                 </p>
-                <h3 className="mt-4 text-2xl font-semibold text-foreground">
+                <h3 className="mt-3 text-2xl font-semibold text-foreground">
                   {getLocalizedText(category.name, locale, category.slug)}
                 </h3>
                 <p className="mt-3 text-sm text-muted-foreground">
                   {dict.home.categoryDescription}
                 </p>
-                <span className="mt-6 inline-flex text-xs uppercase tracking-[0.3em] text-primary/80">
-                  {dict.home.categoryCta}
-                </span>
               </div>
             </Link>
           ))}
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-6xl px-6 py-6">
-        <div className="glass-panel rounded-3xl px-6 py-10 sm:px-10">
-          <p className="text-xs uppercase tracking-[0.3em] text-primary/70">
-            {dict.home.trendingLabel}
-          </p>
-          <div className="mt-6 grid gap-6 md:grid-cols-3">
-            {dict.home.trendingTopics.map((topic) => (
-              <Link
-                key={topic.slug}
-                href={withLocalePath(locale, `/topic/${topic.slug}`)}
-                className="group"
-              >
-                <div className="rounded-2xl border border-white/5 bg-black/30 px-5 py-6 transition hover:border-primary/40">
-                  <h3 className="text-xl font-semibold text-foreground">
-                    {topic.title}
-                  </h3>
-                  <p className="mt-3 text-sm text-muted-foreground">
-                    {topic.description}
-                  </p>
-                  <span className="mt-4 inline-flex text-xs uppercase tracking-[0.3em] text-primary/80">
-                    {dict.home.trendingCta}
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
         </div>
       </section>
 
